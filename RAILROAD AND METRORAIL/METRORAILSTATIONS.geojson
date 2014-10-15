@@ -1,0 +1,511 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.31368565535269, 
+          25.684997970500927
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 1087, 
+        "LON": -80.31369, 
+        "POINT_X": 882187.93756, 
+        "POINT_Y": 491790.53122, 
+        "SURF_PARK": 198, 
+        "ADDRESS": "9150 DADELAND BD", 
+        "LAT": 25.685, 
+        "JOINT_DEV": 1, 
+        "NAME": "DADELAND SOUTH"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.30510834103775, 
+          25.691936273244135
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 0, 
+        "GRAGE_PARK": 1963, 
+        "LON": -80.30511, 
+        "POINT_X": 884999.49986, 
+        "POINT_Y": 494327.06264, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "8300 S DIXIE HWY", 
+        "LAT": 25.69194, 
+        "JOINT_DEV": 1, 
+        "NAME": "DADELAND NORTH"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.28907899515187, 
+          25.705037729163585
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 1774, 
+        "LON": -80.28908, 
+        "POINT_X": 890252.62483, 
+        "POINT_Y": 499116.96889, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "5801 S DIXIE HWY", 
+        "LAT": 25.70504, 
+        "JOINT_DEV": 1, 
+        "NAME": "SOUTH MIAMI"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.27697533304905, 
+          25.714817001134957
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.27698, 
+        "POINT_X": 894218.68745, 
+        "POINT_Y": 502692.96863, 
+        "SURF_PARK": 295, 
+        "ADDRESS": "5400 PONCE DE LEON BD", 
+        "LAT": 25.71482, 
+        "JOINT_DEV": 0, 
+        "NAME": "UNIVERSITY"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.25486948693873, 
+          25.732752484815215
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.25487, 
+        "POINT_X": 901460.37493, 
+        "POINT_Y": 509252.28134, 
+        "SURF_PARK": 440, 
+        "ADDRESS": "3100  SW 37 AVE", 
+        "LAT": 25.73275, 
+        "JOINT_DEV": 0, 
+        "NAME": "DOUGLAS ROAD"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.23884884210777, 
+          25.73981388527351
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.23885, 
+        "POINT_X": 906719.68752, 
+        "POINT_Y": 511848.93737, 
+        "SURF_PARK": 199, 
+        "ADDRESS": "2780 SW 27TH AV", 
+        "LAT": 25.73981, 
+        "JOINT_DEV": 0, 
+        "NAME": "COCONUT GROVE"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.21176517113665, 
+          25.749696528277177
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.21177, 
+        "POINT_X": 915613.87493, 
+        "POINT_Y": 515493.28106, 
+        "SURF_PARK": 91, 
+        "ADDRESS": "3201 SW 1ST AV", 
+        "LAT": 25.7497, 
+        "JOINT_DEV": 0, 
+        "NAME": "VIZCAYA"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19546279974807, 
+          25.763820020253075
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 0, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.19546, 
+        "POINT_X": 920948.68751, 
+        "POINT_Y": 520659.09379, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "1001 SW 1ST AV", 
+        "LAT": 25.76382, 
+        "JOINT_DEV": 0, 
+        "NAME": "BRICKELL"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.21503297794644, 
+          25.789671647530092
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 0, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.21503, 
+        "POINT_X": 914451.68747, 
+        "POINT_Y": 530016.43735, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "1501 NW 12TH AV", 
+        "LAT": 25.78967, 
+        "JOINT_DEV": 0, 
+        "NAME": "CIVIC CENTER"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.21520345882212, 
+          25.795800883417854
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.2152, 
+        "POINT_X": 914382.3124, 
+        "POINT_Y": 532243.87511, 
+        "SURF_PARK": 104, 
+        "ADDRESS": "2050 NW 12TH AV", 
+        "LAT": 25.7958, 
+        "JOINT_DEV": 1, 
+        "NAME": "SANTA CLARA"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.21546218189775, 
+          25.808694785103306
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.21546, 
+        "POINT_X": 914269.25006, 
+        "POINT_Y": 536929.87512, 
+        "SURF_PARK": 66, 
+        "ADDRESS": "3501 NW 12TH AV", 
+        "LAT": 25.80869, 
+        "JOINT_DEV": 0, 
+        "NAME": "ALLAPATTAH"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.2299499156728, 
+          25.812447961803777
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 93, 
+        "LON": -80.22995, 
+        "POINT_X": 909494.81252, 
+        "POINT_Y": 538265.87505, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "2100 NW 41ST ST", 
+        "LAT": 25.81245, 
+        "JOINT_DEV": 0, 
+        "NAME": "EARLINGTON HEIGHTS"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.24071192221454, 
+          25.822065464399582
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.24071, 
+        "POINT_X": 905934.06262, 
+        "POINT_Y": 541740.93727, 
+        "SURF_PARK": 428, 
+        "ADDRESS": "5200 NW 27TH AV", 
+        "LAT": 25.82207, 
+        "JOINT_DEV": 1, 
+        "NAME": "BROWNSVILLE"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.24119519989195, 
+          25.8323863313413
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 100, 
+        "LON": -80.2412, 
+        "POINT_X": 905753.4375, 
+        "POINT_Y": 545491.31221, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "6205 NW 27TH AV", 
+        "LAT": 25.83239, 
+        "JOINT_DEV": 1, 
+        "NAME": "DR. MARTIN LUTHER KING, JR."
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.24877924211843, 
+          25.845799206552723
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.24878, 
+        "POINT_X": 903230.9373, 
+        "POINT_Y": 550352.12496, 
+        "SURF_PARK": 294, 
+        "ADDRESS": "3150 NW 79TH ST", 
+        "LAT": 25.8458, 
+        "JOINT_DEV": 1, 
+        "NAME": "NORTHSIDE"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.25979260162822, 
+          25.845437044916785
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 0, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.25979, 
+        "POINT_X": 899609.43752, 
+        "POINT_Y": 550199.93749, 
+        "SURF_PARK": 50, 
+        "ADDRESS": "1125 E 25TH ST", 
+        "LAT": 25.84544, 
+        "JOINT_DEV": 0, 
+        "NAME": "TRI-RAIL"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.27903255006714, 
+          25.84117612686097
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 0, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.27903, 
+        "POINT_X": 893290.00002, 
+        "POINT_Y": 548616.06266, 
+        "SURF_PARK": 315, 
+        "ADDRESS": "125 E 21ST ST", 
+        "LAT": 25.84118, 
+        "JOINT_DEV": 0, 
+        "NAME": "HIALEAH"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.30156809165094, 
+          25.839806206204447
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 0, 
+        "GRAGE_PARK": 939, 
+        "LON": -80.30157, 
+        "POINT_X": 885880.56245, 
+        "POINT_Y": 548078.1249, 
+        "SURF_PARK": 142, 
+        "ADDRESS": "2005 OKEECHOBEE RD", 
+        "LAT": 25.83981, 
+        "JOINT_DEV": 1, 
+        "NAME": "OKEECHOBEE"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.20754348445794, 
+          25.78455560730623
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.20754, 
+        "POINT_X": 916927.31263, 
+        "POINT_Y": 528171.68755, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "701 NW 11TH ST", 
+        "LAT": 25.78456, 
+        "JOINT_DEV": 0, 
+        "NAME": "CULMER"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19609811238172, 
+          25.77603794896821
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.1961, 
+        "POINT_X": 920712.50014, 
+        "POINT_Y": 525098.62505, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "101 NW 1ST ST", 
+        "LAT": 25.77604, 
+        "JOINT_DEV": 0, 
+        "NAME": "GOVERNMENT CENTER"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19628198208093, 
+          25.78099402439602
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 0, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.19628, 
+        "POINT_X": 920640.99999, 
+        "POINT_Y": 526899.62484, 
+        "SURF_PARK": 35, 
+        "ADDRESS": "100 NW 6TH ST", 
+        "LAT": 25.78099, 
+        "JOINT_DEV": 0, 
+        "NAME": "HISTORIC OVERTOWN/LYRIC THEATRE"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.32374432092632, 
+          25.84340083184557
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 1, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.32374, 
+        "POINT_X": 878579.87509, 
+        "POINT_Y": 549346.49979, 
+        "SURF_PARK": 700, 
+        "ADDRESS": "7701 NW 79 AVE", 
+        "LAT": 25.8434, 
+        "JOINT_DEV": 0, 
+        "NAME": "PALMETTO"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.25936841644334, 
+          25.797407339204877
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "ARTENROUTE": 0, 
+        "GRAGE_PARK": 0, 
+        "LON": -80.25937, 
+        "POINT_X": 899846.698, 
+        "POINT_Y": 532748.177, 
+        "SURF_PARK": 0, 
+        "ADDRESS": "3800 NW 25TH ST", 
+        "LAT": 25.79742, 
+        "JOINT_DEV": 0, 
+        "NAME": "MIAMI AIRPORT STATION"
+      }
+    }
+  ]
+}

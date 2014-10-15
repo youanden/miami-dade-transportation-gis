@@ -1,0 +1,1206 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": null, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 0.0, 
+        "ANGLE": 180.0, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 0.0, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": null, 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 1.640625, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 14.0, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": null, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 0.0, 
+        "ANGLE": 1.68466443, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 0.0, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": null, 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 1.640625, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 14.0, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": null, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 0.0, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 0.0, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": null, 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.56464105373485, 
+              25.502449327997443
+            ], 
+            [
+              -80.56463218810656, 
+              25.504908459232357
+            ], 
+            [
+              -80.5492689122675, 
+              25.504862036310826
+            ], 
+            [
+              -80.54927809072103, 
+              25.502402910181992
+            ], 
+            [
+              -80.56464105373485, 
+              25.502449327997443
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 4528798.36575, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 11921.8748044, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "HOMESTEAD", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.56375800520618, 
+              25.489597247303486
+            ], 
+            [
+              -80.5637491267154, 
+              25.492056383250656
+            ], 
+            [
+              -80.55278921115342, 
+              25.492023376398752
+            ], 
+            [
+              -80.55279831268032, 
+              25.48956424408336
+            ], 
+            [
+              -80.56375800520618, 
+              25.489597247303486
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 3231116.32942, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 9017.96912262, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "AVIATION", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.56309907435332, 
+              25.49586958636097
+            ], 
+            [
+              -80.5630901799487, 
+              25.498328719988663
+            ], 
+            [
+              -80.55149847688361, 
+              25.49829372721862
+            ], 
+            [
+              -80.55150760724764, 
+              25.495834597440524
+            ], 
+            [
+              -80.56309907435332, 
+              25.49586958636097
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 3417198.02025, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 9434.37562812, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "GENERAL", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.28237686039621, 
+              25.909926214471213
+            ], 
+            [
+              -80.282361978915, 
+              25.912385086529337
+            ], 
+            [
+              -80.26861072276064, 
+              25.91231636195372
+            ], 
+            [
+              -80.26862588933686, 
+              25.909857497367863
+            ], 
+            [
+              -80.28237686039621, 
+              25.909926214471213
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 4040029.95065, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 10828.1251502, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "OPA LOCKA", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 40.5, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.28150526974342, 
+              25.904398038625207
+            ], 
+            [
+              -80.2814903738466, 
+              25.90685691139504
+            ], 
+            [
+              -80.27071755163242, 
+              25.906803126146407
+            ], 
+            [
+              -80.27073267081983, 
+              25.904344259225415
+            ], 
+            [
+              -80.28150526974342, 
+              25.904398038625207
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 3165131.37726, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 8870.31200592, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "AIRPORT", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 40.5, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.42795203079541, 
+              25.946829082802765
+            ], 
+            [
+              -80.42797689229224, 
+              25.949287933798878
+            ], 
+            [
+              -80.40966988342056, 
+              25.949438073771603
+            ], 
+            [
+              -80.40964540228366, 
+              25.946979226185704
+            ], 
+            [
+              -80.42795203079541, 
+              25.946829082802765
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 5376815.10813, 
+        "ANGLE": 0.77405215, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 13819.531563, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "WEST AIRPORT", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 40.5, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.42544783803292, 
+              25.95272879588475
+            ], 
+            [
+              -80.42543590070296, 
+              25.95518772227128
+            ], 
+            [
+              -80.41167928101747, 
+              25.95513248388818
+            ], 
+            [
+              -80.4116915041197, 
+              25.95267356350063
+            ], 
+            [
+              -80.42544783803292, 
+              25.95272879588475
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 4040028.81325, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 10828.1246469, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "OPA LOCKA", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 40.5, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.44050821100201, 
+              25.650537498022075
+            ], 
+            [
+              -80.4404967418125, 
+              25.65299653371951
+            ], 
+            [
+              -80.43055874162785, 
+              25.65295811477496
+            ], 
+            [
+              -80.43057041450864, 
+              25.65049908328539
+            ], 
+            [
+              -80.44050821100201, 
+              25.650537498022075
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 2925984.51768, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 8335.15680036, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "TAMIAMI", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.44076494867929, 
+              25.64446386447002
+            ], 
+            [
+              -80.44075348786336, 
+              25.646922902320686
+            ], 
+            [
+              -80.43000377490425, 
+              25.64688134146619
+            ], 
+            [
+              -80.43001545598867, 
+              25.64442230816829
+            ], 
+            [
+              -80.44076494867929, 
+              25.64446386447002
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 3165132.49322, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 8870.31301239, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "AIRPORT", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": null, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 0.0, 
+        "ANGLE": -0.53050841, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 0.0, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": null, 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 40.5, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": null, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 0.0, 
+        "ANGLE": 3.1798665, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 0.0, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": null, 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 40.5, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": null, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 0.0, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 0.0, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": null, 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.40255666930145, 
+              25.49986908643751
+            ], 
+            [
+              -80.40254450450512, 
+              25.50232815555546
+            ], 
+            [
+              -80.37590522754219, 
+              25.502217193073154
+            ], 
+            [
+              -80.37591793465711, 
+              25.499758136160604
+            ], 
+            [
+              -80.40255666930145, 
+              25.49986908643751
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 7853129.00209, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 19360.9371161, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "HOMESTEAD AIRPORT", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.38937933371848, 
+              25.49334356744865
+            ], 
+            [
+              -80.3894245455191, 
+              25.4958023161285
+            ], 
+            [
+              -80.38295479721509, 
+              25.49590016542154
+            ], 
+            [
+              -80.38290971715008, 
+              25.493441417218715
+            ], 
+            [
+              -80.38937933371848, 
+              25.49334356744865
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 1907597.15742, 
+        "ANGLE": 1.21892982, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 6056.24928242, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "BASE", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.29223937944435, 
+              25.80142015722802
+            ], 
+            [
+              -80.29222477305737, 
+              25.803879070629044
+            ], 
+            [
+              -80.28520105584728, 
+              25.80384471163669
+            ], 
+            [
+              -80.28521580715308, 
+              25.801385801982786
+            ], 
+            [
+              -80.29223937944435, 
+              25.80142015722802
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 2065400.33391, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 6409.37515802, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "MIAMI", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.30016950676688, 
+              25.79536420171198
+            ], 
+            [
+              -80.30015506792087, 
+              25.79782312135996
+            ], 
+            [
+              -80.28088237709785, 
+              25.79772909734689
+            ], 
+            [
+              -80.28089721348584, 
+              25.795270187954717
+            ], 
+            [
+              -80.30016950676688, 
+              25.79536420171198
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 5667631.29713, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 14470.3123896, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "INTERNATIONAL", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.29494907836765, 
+              25.789071660851935
+            ], 
+            [
+              -80.29493453589261, 
+              25.79153057986815
+            ], 
+            [
+              -80.28417212510627, 
+              25.791478011867767
+            ], 
+            [
+              -80.2841868895178, 
+              25.78901909858649
+            ], 
+            [
+              -80.29494907836765, 
+              25.789071660851935
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 3165131.37725, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 2, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 8870.31200592, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 0, 
+        "LEVEL_": 1, 
+        "TEXTSTRING": "AIRPORT", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 0.0, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 0, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 345.6, 
+        "ID": 0, 
+        "ANNOTATION": 0, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.18026886342693, 
+              25.774376423088107
+            ], 
+            [
+              -80.18026094338101, 
+              25.775529013146915
+            ], 
+            [
+              -80.17162994348635, 
+              25.775480135145173
+            ], 
+            [
+              -80.171637946899, 
+              25.774327547587
+            ], 
+            [
+              -80.18026886342693, 
+              25.774376423088107
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 1190020.60957, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 6518.92117351, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 2, 
+        "TEXTSTRING": "PORT OF MIAMI", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 18.984375, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 1, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 162.0, 
+        "ID": 0, 
+        "ANNOTATION": 1, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.18308793340522, 
+              25.783521011922282
+            ], 
+            [
+              -80.18308003738065, 
+              25.784673601346196
+            ], 
+            [
+              -80.17706296230234, 
+              25.78463968826618
+            ], 
+            [
+              -80.17707091646963, 
+              25.783487100576846
+            ], 
+            [
+              -80.18308793340522, 
+              25.783521011922282
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 829554.69852, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 4798.09565087, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 2, 
+        "TEXTSTRING": "SEAPLANE", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 18.984375, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 1, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 162.0, 
+        "ID": 0, 
+        "ANNOTATION": 1, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [
+          [
+            [
+              -80.18129598965042, 
+              25.78219067101672
+            ], 
+            [
+              -80.18128807677526, 
+              25.78334326013454
+            ], 
+            [
+              -80.17824785715581, 
+              25.783326119311255
+            ], 
+            [
+              -80.17825579940673, 
+              25.782173531070182
+            ], 
+            [
+              -80.18129598965042, 
+              25.78219067101672
+            ]
+          ]
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "SHAPE_AREA": 419149.93345, 
+        "ANGLE": 0.0, 
+        "VERTICALAL": 0, 
+        "SYMBOL": 9, 
+        "CHARACTERW": 100.0, 
+        "SHAPE_LEN": 2838.86740578, 
+        "CHARACTERS": 0.0, 
+        "HORIZONTAL": 1, 
+        "LEVEL_": 2, 
+        "TEXTSTRING": "BASE", 
+        "FONTLEADIN": 0.0, 
+        "YOFFSET": 18.984375, 
+        "OVERRIDE": 0, 
+        "UNDERLINE": 0, 
+        "XOFFSET": 0.0, 
+        "STATUS": 0, 
+        "BOLD": 0, 
+        "FEATUREID": 0, 
+        "SYMBOLID": 1, 
+        "WORDSPACIN": 100.0, 
+        "FONTSIZE": 162.0, 
+        "ID": 0, 
+        "ANNOTATION": 1, 
+        "FONTNAME": "Arial", 
+        "FLIPANGLE": 180.0, 
+        "ZORDER": 0, 
+        "ITALIC": 0
+      }
+    }
+  ]
+}

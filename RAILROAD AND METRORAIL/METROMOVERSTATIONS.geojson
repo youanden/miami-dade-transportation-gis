@@ -1,0 +1,572 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.18991568822848, 
+          25.777583756801675
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "COLLEGE/BAYSIDE", 
+        "DTWN_LOOP": 1, 
+        "LON": -80.18992, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 922743.62508, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "225 NE 3RD ST", 
+        "LAT": 25.77758, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 525672.93743
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.1898491118717, 
+          25.775725583970754
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "FIRST STREET", 
+        "DTWN_LOOP": 1, 
+        "LON": -80.18985, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 922769.68744, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "225 NE 1ST ST", 
+        "LAT": 25.77573, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 524997.6875
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.18732326068006, 
+          25.773099416648293
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "BAYFRONT PARK", 
+        "DTWN_LOOP": 1, 
+        "LON": -80.18732, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 923606.81241, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "150 BISCAYNE BLVD", 
+        "LAT": 25.7731, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 524048.28125
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.1913778985118, 
+          25.7718650969819
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "KNIGHT CENTER", 
+        "DTWN_LOOP": 1, 
+        "LON": -80.19138, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 922275.18747, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "100 SE 2ND ST", 
+        "LAT": 25.77187, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 523591.43748
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19358270349011, 
+          25.77339062380518
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "MIAMI AVENUE", 
+        "DTWN_LOOP": 1, 
+        "LON": -80.19358, 
+        "BRICK_LOOP": 0, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 921546.18744, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "90 S MIAMI AVE", 
+        "LAT": 25.77339, 
+        "OMNI_LOOP": 0, 
+        "POINT_Y": 524141.46881
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19350857313229, 
+          25.772023512312632
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "THIRD STREET", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19351, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 921573.62493, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "250 S MIAMI AVE", 
+        "LAT": 25.77202, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 523644.71872
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19609396621705, 
+          25.775864080211715
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "GOVERNMENT CENTER", 
+        "DTWN_LOOP": 1, 
+        "LON": -80.19609, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 920714.25002, 
+        "MRAIL_XFER": 1, 
+        "ADDRESS": "101 NW 1ST ST", 
+        "LAT": 25.77586, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 525035.43754
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19534116930207, 
+          25.778815311908804
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "WILKIE D. FERGUSON, JR.", 
+        "DTWN_LOOP": 1, 
+        "LON": -80.19534, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 920955.43755, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "90 NW 5TH ST", 
+        "LAT": 25.77882, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 526109.62499
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19208592251064, 
+          25.778926068111094
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "COLLEGE NORTH", 
+        "DTWN_LOOP": 1, 
+        "LON": -80.19209, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 922026.4375, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "100 NE 5TH ST", 
+        "LAT": 25.77893, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 526156.43756
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.1931450636756, 
+          25.789375800191227
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 1, 
+        "ANGLE": 1.0, 
+        "NAME": "SCHOOL BOARD", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19315, 
+        "BRICK_LOOP": 0, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 921654.62501, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "50 NE 15TH ST", 
+        "LAT": 25.78938, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 529952.43753
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.18799832721696, 
+          25.789456351643175
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 1, 
+        "ANGLE": 1.0, 
+        "NAME": "ADRIENNE ARSHT CENTER", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.188, 
+        "BRICK_LOOP": 0, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 923347.99997, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "1455 BISCAYNE BLVD", 
+        "LAT": 25.78946, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 529992.12506
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.18793486644708, 
+          25.785918028806034
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "MUSEUM PARK", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.18793, 
+        "BRICK_LOOP": 0, 
+        "OPEN_": 0, 
+        "SCALE": 1.0, 
+        "POINT_X": 923376.81242, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "1191 BISCAYNE BLVD", 
+        "LAT": 25.78592, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 528706.18744
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19079042819745, 
+          25.784865757793064
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 1, 
+        "ANGLE": 1.0, 
+        "NAME": "ELEVENTH STREET", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19079, 
+        "BRICK_LOOP": 0, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 922439.49997, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "1098 NE 2ND AVE", 
+        "LAT": 25.78487, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 528317.93749
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19064349749094, 
+          25.782475971812527
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 1, 
+        "ANGLE": 1.0, 
+        "NAME": "PARK WEST", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19064, 
+        "BRICK_LOOP": 0, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 922493.18751, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "800 NE 2ND AVE", 
+        "LAT": 25.78248, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 527449.62498
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19056753160773, 
+          25.780544494589225
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 1, 
+        "ANGLE": 1.0, 
+        "NAME": "FREEDOM TOWER", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19057, 
+        "BRICK_LOOP": 0, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 922522.49993, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "600 NE 2ND AVE", 
+        "LAT": 25.78054, 
+        "OMNI_LOOP": 1, 
+        "POINT_Y": 526747.74998
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19255857119728, 
+          25.77105134011239
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 1, 
+        "ANGLE": 1.0, 
+        "NAME": "RIVERWALK", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19256, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 921888.43743, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "88 SE 4TH ST", 
+        "LAT": 25.77105, 
+        "OMNI_LOOP": 0, 
+        "POINT_Y": 523293.28125
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19224887472987, 
+          25.76916507798545
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "FIFTH STREET", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19225, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 921994.56249, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "35 SE 5TH ST", 
+        "LAT": 25.76917, 
+        "OMNI_LOOP": 0, 
+        "POINT_Y": 522608.31259
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19212186337724, 
+          25.7668876850409
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 1, 
+        "ANGLE": 1.0, 
+        "NAME": "EIGHTH STREET", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19212, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 922041.43744, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "59 SE 8TH ST", 
+        "LAT": 25.76689, 
+        "OMNI_LOOP": 0, 
+        "POINT_Y": 521780.81249
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19256097594047, 
+          25.764016231701603
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "TENTH STREET/PROMENADE", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19256, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 921903.31242, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "1011 SW 1ST AVE", 
+        "LAT": 25.76402, 
+        "OMNI_LOOP": 0, 
+        "POINT_Y": 520736.24992
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19526132686443, 
+          25.762663967810976
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 1, 
+        "ANGLE": 1.0, 
+        "NAME": "BRICKELL", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19526, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 921017.56252, 
+        "MRAIL_XFER": 1, 
+        "ADDRESS": "1200 SW 1ST AVE", 
+        "LAT": 25.76266, 
+        "OMNI_LOOP": 0, 
+        "POINT_Y": 520239.31249
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19288141558633, 
+          25.760381409818184
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "POLYGONID": 0, 
+        "ARTENROUTE": 0, 
+        "ANGLE": 1.0, 
+        "NAME": "FINANCIAL DISTRICT", 
+        "DTWN_LOOP": 0, 
+        "LON": -80.19288, 
+        "BRICK_LOOP": 1, 
+        "OPEN_": 1, 
+        "SCALE": 1.0, 
+        "POINT_X": 921805.93744, 
+        "MRAIL_XFER": 0, 
+        "ADDRESS": "50 SW 14TH ST", 
+        "LAT": 25.76038, 
+        "OMNI_LOOP": 0, 
+        "POINT_Y": 519414.46883
+      }
+    }
+  ]
+}

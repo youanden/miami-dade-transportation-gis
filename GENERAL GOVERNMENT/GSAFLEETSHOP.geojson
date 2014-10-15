@@ -1,0 +1,533 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.33962141668277, 
+          25.826263753297372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "TIRE SHOP", 
+        "LON": -80.33962, 
+        "ZIPCODE": 33178, 
+        "PHONE": "305-470-1769", 
+        "POINT_X": 873389.20970549, 
+        "POINT_Y": 543091.26412264, 
+        "ADDRESS": "8801 NW 58TH ST", 
+        "OPERHR": "M-F 6AM-4:30PM", 
+        "LAT": 25.82626, 
+        "TYPE": "HE", 
+        "ID": "039"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.33962141668277, 
+          25.826263753297372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "SHOP 3C", 
+        "LON": -80.33962, 
+        "ZIPCODE": 33178, 
+        "PHONE": "305-470-1008", 
+        "POINT_X": 873389.20970549, 
+        "POINT_Y": 543091.26412264, 
+        "ADDRESS": "8801 NW 58TH ST", 
+        "OPERHR": "M-F 7AM-5:30PM", 
+        "LAT": 25.82626, 
+        "TYPE": "HE", 
+        "ID": "038"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.42322727319576, 
+          25.67402346693708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "STATION 8", 
+        "LON": -80.42323, 
+        "ZIPCODE": 33186, 
+        "PHONE": "305-383-6820", 
+        "POINT_X": 846129.5775274, 
+        "POINT_Y": 487629.47960503, 
+        "ADDRESS": "10000 SW 142ND AVE", 
+        "OPERHR": "M-F 6:30AM-5:30 PM", 
+        "LAT": 25.67402, 
+        "TYPE": "LE", 
+        "ID": "017"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.3347035275031, 
+          25.71267173591117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "LIGHT EQUIPMENT ADMIN OFFICE", 
+        "LON": -80.3347, 
+        "ZIPCODE": 33173, 
+        "PHONE": "305-273-4125", 
+        "POINT_X": 875215.35572686, 
+        "POINT_Y": 501813.33606293, 
+        "ADDRESS": "6100 SW 87TH AVE", 
+        "OPERHR": "M-F 6AM-2:30PM", 
+        "LAT": 25.71267, 
+        "TYPE": "ADM", 
+        "ID": "Office1"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.2072740402555, 
+          25.80077637142703
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "SHOP 1 MAIN", 
+        "LON": -80.20727, 
+        "ZIPCODE": 33127, 
+        "PHONE": "305-638-6071", 
+        "POINT_X": 916980.48305813, 
+        "POINT_Y": 534067.93352666, 
+        "ADDRESS": "703 NW 25TH ST", 
+        "OPERHR": "M-F 6AM-6PM", 
+        "LAT": 25.80078, 
+        "TYPE": "LE", 
+        "ID": "010"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19779044667206, 
+          25.77497305213671
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "DOWNTOWN MOTOR POOL", 
+        "LON": -80.19779, 
+        "ZIPCODE": 33128, 
+        "PHONE": "305-375-4053", 
+        "POINT_X": 920157.92483843, 
+        "POINT_Y": 524708.17548348, 
+        "ADDRESS": "201 NW 1ST ST", 
+        "OPERHR": "M-F 6:30AM-5:30PM", 
+        "LAT": 25.77497, 
+        "TYPE": "LE", 
+        "ID": "015"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.29883095547156, 
+          25.90995229780908
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI LAKES", 
+        "NAME": "STATION 1", 
+        "LON": -80.29883, 
+        "ZIPCODE": 33014, 
+        "PHONE": "305-557-9844", 
+        "POINT_X": 886644.66304638, 
+        "POINT_Y": 573578.65461458, 
+        "ADDRESS": "5975 MIAMI LKS DR", 
+        "OPERHR": "M-F 6:30AM-5:30PM", 
+        "LAT": 25.90995, 
+        "TYPE": "LE", 
+        "ID": "016"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.24518415558384, 
+          25.849637249058535
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "STATION 2", 
+        "LON": -80.24518, 
+        "ZIPCODE": 33147, 
+        "PHONE": "305-691-3134", 
+        "POINT_X": 904405.33322033, 
+        "POINT_Y": 551753.90360131, 
+        "ADDRESS": "2950 NW 83RD ST", 
+        "OPERHR": "M-F 6:30AM-5:30PM", 
+        "LAT": 25.84964, 
+        "TYPE": "LE", 
+        "ID": "014"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.3659246252305, 
+          25.572052995688868
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "CUTLER BAY", 
+        "NAME": "SOUTH DADE GOVERNMENT CENTER", 
+        "LON": -80.36592, 
+        "ZIPCODE": 33189, 
+        "PHONE": "305-251-3125", 
+        "POINT_X": 865180.32128618, 
+        "POINT_Y": 450654.64230293, 
+        "ADDRESS": "10740 SW 211TH ST", 
+        "OPERHR": "M-F 6AM-5PM", 
+        "LAT": 25.57205, 
+        "TYPE": "LE", 
+        "ID": "011"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.38203696026928, 
+          25.696097311830226
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "STATION 5", 
+        "LON": -80.38204, 
+        "ZIPCODE": 33183, 
+        "PHONE": "305-271-5342", 
+        "POINT_X": 859658.62229238, 
+        "POINT_Y": 495713.57051111, 
+        "ADDRESS": "7707 SW 117TH AVE", 
+        "OPERHR": "M-F 6:30AM-5:30PM", 
+        "LAT": 25.6961, 
+        "TYPE": "LE", 
+        "ID": "013"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.15558607359664, 
+          25.920154483524716
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "NORTH MIAMI", 
+        "NAME": "STATION 6", 
+        "LON": -80.15559, 
+        "ZIPCODE": 33160, 
+        "PHONE": "305-947-4429", 
+        "POINT_X": 933708.0734272, 
+        "POINT_Y": 577564.43313466, 
+        "ADDRESS": "15665 BISCAYNE BLVD", 
+        "OPERHR": "M-F 6:30AM-5:30PM", 
+        "LAT": 25.92015, 
+        "TYPE": "LE", 
+        "ID": "012"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.3347035275031, 
+          25.71267173591117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "SHOP 2 TRUCK", 
+        "LON": -80.3347, 
+        "ZIPCODE": 33173, 
+        "PHONE": "305-273-4125", 
+        "POINT_X": 875215.35572686, 
+        "POINT_Y": 501813.33606293, 
+        "ADDRESS": "6100 SW 87TH AVE", 
+        "OPERHR": "M-F 6AM-2:30PM", 
+        "LAT": 25.71267, 
+        "TYPE": "HE", 
+        "ID": "020"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.3347035275031, 
+          25.71267173591117
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "SHOP 2 AUTO", 
+        "LON": -80.3347, 
+        "ZIPCODE": 33173, 
+        "PHONE": "305-273-4127", 
+        "POINT_X": 875215.35572686, 
+        "POINT_Y": 501813.33606293, 
+        "ADDRESS": "6100 SW 87TH AVE", 
+        "OPERHR": "M-F 6AM-6PM", 
+        "LAT": 25.71267, 
+        "TYPE": "LE", 
+        "ID": "024"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.33962141668277, 
+          25.826263753297372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "HEAVY EQUIPMENT ADMIN OFFICE", 
+        "LON": -80.33962, 
+        "ZIPCODE": 33178, 
+        "PHONE": "305-470-1769", 
+        "POINT_X": 873389.20970549, 
+        "POINT_Y": 543091.26412264, 
+        "ADDRESS": "8801 NW 58TH ST", 
+        "OPERHR": "M-F 7AM-5:30PM", 
+        "LAT": 25.82626, 
+        "TYPE": "ADM", 
+        "ID": "Office2"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.33962141668277, 
+          25.826263753297372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "SHOP 3 MAIN", 
+        "LON": -80.33962, 
+        "ZIPCODE": 33178, 
+        "PHONE": "305-591-9515", 
+        "POINT_X": 873389.20970549, 
+        "POINT_Y": 543091.26412264, 
+        "ADDRESS": "8801 NW 58TH ST", 
+        "OPERHR": "M-F 6AM-11PM; Sat 7AM-3:30PM", 
+        "LAT": 25.82626, 
+        "TYPE": "HE", 
+        "ID": "030"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.33962141668277, 
+          25.826263753297372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "SHOP 3 AUTO", 
+        "LON": -80.33962, 
+        "ZIPCODE": 33178, 
+        "PHONE": "305-477-1008", 
+        "POINT_X": 873389.20970549, 
+        "POINT_Y": 543091.26412264, 
+        "ADDRESS": "8801 NW 58TH ST", 
+        "OPERHR": "M-F 6AM-5:30PM", 
+        "LAT": 25.82626, 
+        "TYPE": "LE", 
+        "ID": "033"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.36650031017474, 
+          25.571855688847673
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "CUTLER BAY", 
+        "NAME": "SHOP 3D", 
+        "LON": -80.3665, 
+        "ZIPCODE": 33189, 
+        "PHONE": "305-233-5297", 
+        "POINT_X": 864990.89223339, 
+        "POINT_Y": 450582.0249346, 
+        "ADDRESS": "10820 SW 211TH ST", 
+        "OPERHR": "M-F 6AM-11PM", 
+        "LAT": 25.57186, 
+        "TYPE": "HE", 
+        "ID": "035"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.18910301126405, 
+          25.946899427532372
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "SHOP 3A", 
+        "LON": -80.1891, 
+        "ZIPCODE": 33179, 
+        "PHONE": "305-652-0764", 
+        "POINT_X": 922631.10952051, 
+        "POINT_Y": 587215.97926013, 
+        "ADDRESS": "18701 NE 6TH AVE", 
+        "OPERHR": "M-F 6AM-11PM", 
+        "LAT": 25.9469, 
+        "TYPE": "HE", 
+        "ID": "031"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.36603915193902, 
+          25.695022061268446
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "SHOP 3B", 
+        "LON": -80.36604, 
+        "ZIPCODE": 33173, 
+        "PHONE": "305-279-5050", 
+        "POINT_X": 864928.62480264, 
+        "POINT_Y": 495347.72315112, 
+        "ADDRESS": "7900 SW 107TH AVE", 
+        "OPERHR": "M-F 6AM-11PM", 
+        "LAT": 25.69502, 
+        "TYPE": "HE", 
+        "ID": "032"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19575435839789, 
+          25.77504236871273
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "DIRECTORS OFFICE", 
+        "LON": -80.19575, 
+        "ZIPCODE": 33128, 
+        "PHONE": "305-375-4053", 
+        "POINT_X": 920827.83560144, 
+        "POINT_Y": 524737.45507216, 
+        "ADDRESS": "111 NW 1ST ST", 
+        "OPERHR": "M-F 7:30AM-5:30PM", 
+        "LAT": 25.77504, 
+        "TYPE": "ADM", 
+        "ID": "Office3"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.23022597495023, 
+          25.81312912499704
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED MIAMI DADE", 
+        "NAME": "NEW CAR GET READY", 
+        "LON": -80.23023, 
+        "ZIPCODE": 33142, 
+        "PHONE": "305-633-7678", 
+        "POINT_X": 909402.54417833, 
+        "POINT_Y": 538512.92310067, 
+        "ADDRESS": "2100 NW 41ST ST", 
+        "OPERHR": "M-F 6:30AM-3PM", 
+        "LAT": 25.81313, 
+        "TYPE": "ADM", 
+        "ID": "040"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.34400624684449, 
+          25.79687420191284
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "DORAL", 
+        "NAME": "POLICE HEADQUARTERS", 
+        "LON": -80.34401, 
+        "ZIPCODE": 33172, 
+        "PHONE": "305-471-2930", 
+        "POINT_X": 872000.09282615, 
+        "POINT_Y": 532402.08945334, 
+        "ADDRESS": "9109 NW 25TH ST", 
+        "OPERHR": "M-F 6:30AM-11:00PM", 
+        "LAT": 25.79687, 
+        "TYPE": "LE", 
+        "ID": "018"
+      }
+    }
+  ]
+}

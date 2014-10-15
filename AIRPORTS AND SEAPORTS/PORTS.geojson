@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.28994026664131, 
+          25.797407251499354
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "MIAMI", 
+        "NAME": "MIAMI INTERNATIONAL AIRPORT", 
+        "LON": -80.28994027, 
+        "ZIPCODE": 33122, 
+        "PTYPE": "AIRPORT", 
+        "ST": "FL", 
+        "PHONE": "305-878-7550", 
+        "POINT_X": 889788.25011092, 
+        "POINT_Y": 532688.12509458, 
+        "ADDRESS": "4200 NW 21ST ST", 
+        "LAT": 25.79740725
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.27702467237282, 
+          25.90788776110757
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "MIAMI", 
+        "NAME": "OPA LOCKA AIRPORT", 
+        "LON": -80.27702467, 
+        "ZIPCODE": 33054, 
+        "PTYPE": "AIRPORT", 
+        "ST": "FL", 
+        "PHONE": "305-869-1660", 
+        "POINT_X": 893816.87512006, 
+        "POINT_Y": 572867.18783953, 
+        "ADDRESS": "14300 NW 41ST AVE", 
+        "LAT": 25.90788776
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.54990044263904, 
+          25.499184273254546
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "HOMESTEAD", 
+        "NAME": "HOMESTEAD GENERAL AVIATION", 
+        "LON": -80.54990044, 
+        "ZIPCODE": 33030, 
+        "PTYPE": "AIRPORT", 
+        "ST": "FL", 
+        "PHONE": "305-247-4883", 
+        "POINT_X": 804624.12488719, 
+        "POINT_Y": 423923.59375969, 
+        "ADDRESS": "28700 SW 217TH AVE", 
+        "LAT": 25.49918427
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.41895274326292, 
+          25.950278986111826
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "CLOSED", 
+        "CITY": "MIAMI", 
+        "NAME": "OPA LOCKA WEST AIRPORT", 
+        "LON": -80.41895274, 
+        "ZIPCODE": 33018, 
+        "PTYPE": "AIRPORT", 
+        "ST": "FL", 
+        "PHONE": null, 
+        "POINT_X": 847094.06252268, 
+        "POINT_Y": 588042.87490504, 
+        "ADDRESS": "NW 186TH ST / NW 137TH AVE", 
+        "LAT": 25.95027899
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.17481445703132, 
+          25.78268814341196
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "MIAMI", 
+        "NAME": "SEAPLANE BASE", 
+        "LON": -80.17481446, 
+        "ZIPCODE": 33132, 
+        "PTYPE": "SEAPLANE BASE", 
+        "ST": "FL", 
+        "PHONE": null, 
+        "POINT_X": 927701.6252002, 
+        "POINT_Y": 527559.06241905, 
+        "ADDRESS": "1099 MACARTHUR CSWY", 
+        "LAT": 25.78268814
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.17829359101934, 
+          25.777802141382644
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "MIAMI", 
+        "NAME": "PORT OF MIAMI", 
+        "LON": -80.17829359, 
+        "ZIPCODE": 33132, 
+        "PTYPE": "SEAPORT", 
+        "ST": "FL", 
+        "PHONE": null, 
+        "POINT_X": 926567.81264224, 
+        "POINT_Y": 525775.99988596, 
+        "ADDRESS": "1015 N AMERICA WAY", 
+        "LAT": 25.77780214
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.43039619326284, 
+          25.649921208650543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "MIAMI", 
+        "NAME": "KENDALL-TAMIAMI EXECUTIVE AIRPORT", 
+        "LON": -80.43039619, 
+        "ZIPCODE": 33186, 
+        "PTYPE": "AIRPORT", 
+        "ST": "FL", 
+        "PHONE": "305-869-1700", 
+        "POINT_X": 843806.12504452, 
+        "POINT_Y": 478859.28123439, 
+        "ADDRESS": "12800 SW 137TH AVE", 
+        "LAT": 25.64992121
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.3908922638876, 
+          25.49799825864778
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "HOMESTEAD", 
+        "NAME": "HOMESTEAD AIR RESERVE BASE", 
+        "LON": -80.39089226, 
+        "ZIPCODE": 33039, 
+        "PTYPE": "AIRPORT", 
+        "ST": "FL", 
+        "PHONE": null, 
+        "POINT_X": 857073.2499602, 
+        "POINT_Y": 423701.25006652, 
+        "ADDRESS": "SAINT LO BLVD / RABAUL RD", 
+        "LAT": 25.49799826
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.89701845536818, 
+          25.86180826952884
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "OCHOPPI", 
+        "NAME": "DADE-COLLIER TRAINING AND TRANSITION", 
+        "LON": -80.89701846, 
+        "ZIPCODE": 34141, 
+        "PTYPE": "AIRPORT", 
+        "ST": "FL", 
+        "PHONE": "239-695-3300", 
+        "POINT_X": 690030.46433869, 
+        "POINT_Y": 555477.74510483, 
+        "ADDRESS": "54575 E TAMIAMI TR", 
+        "LAT": 25.86180827
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.24408444368666, 
+          25.794768056758507
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "STATUS": "OPEN", 
+        "CITY": "MIAMI", 
+        "NAME": "PORT OF MIAMI RIVER", 
+        "LON": -80.24768446, 
+        "ZIPCODE": 33142, 
+        "PTYPE": "RIVERPORT", 
+        "ST": "FL", 
+        "PHONE": null, 
+        "POINT_X": 903693.83529818, 
+        "POINT_Y": 532331.00506144, 
+        "ADDRESS": "3001 NW SOUTH RIVER DR", 
+        "LAT": 25.79621168
+      }
+    }
+  ]
+}

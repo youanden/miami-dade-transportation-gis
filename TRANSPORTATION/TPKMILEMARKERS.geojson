@@ -1,0 +1,1552 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <title>ValueError at /mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/</title>
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; }
+    h2 { margin-bottom:.8em; }
+    h2 span { font-size:80%; color:#666; font-weight:normal; }
+    h3 { margin:1em 0 .5em 0; }
+    h4 { margin:0 0 .5em 0; font-weight: normal; }
+    code, pre { font-size: 100%; white-space: pre-wrap; }
+    table { border:1px solid #ccc; border-collapse: collapse; width:100%; background:white; }
+    tbody td, tbody th { vertical-align:top; padding:2px 3px; }
+    thead th { padding:1px 6px 1px 3px; background:#fefefe; text-align:left; font-weight:normal; font-size:11px; border:1px solid #ddd; }
+    tbody th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    table.vars { margin:5px 0 2px 40px; }
+    table.vars td, table.req td { font-family:monospace; }
+    table td.code { width:100%; }
+    table td.code pre { overflow:hidden; }
+    table.source th { color:#666; }
+    table.source td { font-family:monospace; white-space:pre; border-bottom:1px solid #eee; }
+    ul.traceback { list-style-type:none; color: #222; }
+    ul.traceback li.frame { padding-bottom:1em; color:#666; }
+    ul.traceback li.user { background-color:#e0e0e0; color:#000 }
+    div.context { padding:10px 0; overflow:hidden; }
+    div.context ol { padding-left:30px; margin:0 10px; list-style-position: inside; }
+    div.context ol li { font-family:monospace; white-space:pre; color:#777; cursor:pointer; }
+    div.context ol li pre { display:inline; }
+    div.context ol.context-line li { color:#505050; background-color:#dfdfdf; }
+    div.context ol.context-line li span { position:absolute; right:32px; }
+    .user div.context ol.context-line li { background-color:#bbb; color:#000; }
+    .user div.context ol li { color:#666; }
+    div.commands { margin-left: 40px; }
+    div.commands a { color:#555; text-decoration:none; }
+    .user div.commands a { color: black; }
+    #summary { background: #ffc; }
+    #summary h2 { font-weight: normal; color: #666; }
+    #explanation { background:#eee; }
+    #template, #template-not-exist { background:#f6f6f6; }
+    #template-not-exist ul { margin: 0 0 0 20px; }
+    #unicode-hint { background:#eee; }
+    #traceback { background:#eee; }
+    #requestinfo { background:#f6f6f6; padding-left:120px; }
+    #summary table { border:none; background:transparent; }
+    #requestinfo h2, #requestinfo h3 { position:relative; margin-left:-100px; }
+    #requestinfo h3 { margin-bottom:-1em; }
+    .error { background: #ffc; }
+    .specific { color:#cc3300; font-weight:bold; }
+    h2 span.commands { font-size:.7em;}
+    span.commands a:link {color:#5E5694;}
+    pre.exception_value { font-family: sans-serif; color: #666; font-size: 1.5em; margin: 10px 0 10px 0; }
+  </style>
+  
+  <script type="text/javascript">
+  //<!--
+    function getElementsByClassName(oElm, strTagName, strClassName){
+        // Written by Jonathan Snook, http://www.snook.ca/jon; Add-ons by Robert Nyman, http://www.robertnyman.com
+        var arrElements = (strTagName == "*" && document.all)? document.all :
+        oElm.getElementsByTagName(strTagName);
+        var arrReturnElements = new Array();
+        strClassName = strClassName.replace(/\-/g, "\-");
+        var oRegExp = new RegExp("(^|\s)" + strClassName + "(\s|$)");
+        var oElement;
+        for(var i=0; i<arrElements.length; i++){
+            oElement = arrElements[i];
+            if(oRegExp.test(oElement.className)){
+                arrReturnElements.push(oElement);
+            }
+        }
+        return (arrReturnElements)
+    }
+    function hideAll(elems) {
+      for (var e = 0; e < elems.length; e++) {
+        elems[e].style.display = 'none';
+      }
+    }
+    window.onload = function() {
+      hideAll(getElementsByClassName(document, 'table', 'vars'));
+      hideAll(getElementsByClassName(document, 'ol', 'pre-context'));
+      hideAll(getElementsByClassName(document, 'ol', 'post-context'));
+      hideAll(getElementsByClassName(document, 'div', 'pastebin'));
+    }
+    function toggle() {
+      for (var i = 0; i < arguments.length; i++) {
+        var e = document.getElementById(arguments[i]);
+        if (e) {
+          e.style.display = e.style.display == 'none' ? 'block' : 'none';
+        }
+      }
+      return false;
+    }
+    function varToggle(link, id) {
+      toggle('v' + id);
+      var s = link.getElementsByTagName('span')[0];
+      var uarr = String.fromCharCode(0x25b6);
+      var darr = String.fromCharCode(0x25bc);
+      s.innerHTML = s.innerHTML == uarr ? darr : uarr;
+      return false;
+    }
+    function switchPastebinFriendly(link) {
+      s1 = "Switch to copy-and-paste view";
+      s2 = "Switch back to interactive view";
+      link.innerHTML = link.innerHTML == s1 ? s2 : s1;
+      toggle('browserTraceback', 'pastebinTraceback');
+      return false;
+    }
+    //-->
+  </script>
+  
+</head>
+<body>
+<div id="summary">
+  <h1>ValueError at /mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/</h1>
+  <pre class="exception_value">No JSON object could be decoded</pre>
+  <table class="meta">
+
+    <tr>
+      <th>Request Method:</th>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <th>Request URL:</th>
+      <td>http://shpescape.com/mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/</td>
+    </tr>
+
+    <tr>
+      <th>Django Version:</th>
+      <td>1.4.13</td>
+    </tr>
+
+    <tr>
+      <th>Exception Type:</th>
+      <td>ValueError</td>
+    </tr>
+
+
+    <tr>
+      <th>Exception Value:</th>
+      <td><pre>No JSON object could be decoded</pre></td>
+    </tr>
+
+
+    <tr>
+      <th>Exception Location:</th>
+      <td>/usr/lib/python2.7/json/decoder.py in raw_decode, line 383</td>
+    </tr>
+
+    <tr>
+      <th>Python Executable:</th>
+      <td>/usr/bin/python</td>
+    </tr>
+    <tr>
+      <th>Python Version:</th>
+      <td>2.7.3</td>
+    </tr>
+    <tr>
+      <th>Python Path:</th>
+      <td><pre>[&#39;/projects/shape-escape/&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages/ipython-2.0.0-py2.7.egg&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages/Unidecode-0.04.16-py2.7.egg&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages/cGPolyEncode-0.1.1-py2.7-linux-x86_64.egg&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages/oauth2client-1.2-py2.7.egg&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages/rsa-3.1.4-py2.7.egg&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages/pyasn1_modules-0.0.5-py2.7.egg&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages/pyasn1-0.1.7-py2.7.egg&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages&#39;,
+ &#39;/usr/lib/python2.7&#39;,
+ &#39;/usr/lib/python2.7/plat-linux2&#39;,
+ &#39;/usr/lib/python2.7/lib-tk&#39;,
+ &#39;/usr/lib/python2.7/lib-old&#39;,
+ &#39;/usr/lib/python2.7/lib-dynload&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages&#39;,
+ &#39;/usr/local/lib/python2.7/dist-packages/PIL&#39;,
+ &#39;/usr/lib/python2.7/dist-packages&#39;,
+ &#39;/usr/lib/pymodules/python2.7&#39;]</pre></td>
+    </tr>
+    <tr>
+      <th>Server time:</th>
+      <td>Mon, 13 Oct 2014 22:17:45 -0700</td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+<div id="traceback">
+  <h2>Traceback <span class="commands"><a href="#" onclick="return switchPastebinFriendly(this);">Switch to copy-and-paste view</a></span></h2>
+  
+  <div id="browserTraceback">
+    <ul class="traceback">
+      
+        <li class="frame django">
+          <code>/projects/shape-escape/django/core/handlers/base.py</code> in <code>get_response</code>
+
+          
+            <div class="context" id="c140618861995504">
+              
+                <ol start="102" class="pre-context" id="pre140618861995504"><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                    for middleware_method in self._view_middleware:</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                        response = middleware_method(request, callback, callback_args, callback_kwargs)</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                        if response:</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                            break</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre></pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                if response is None:</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                    try:</pre></li></ol>
+              
+              <ol start="109" class="context-line"><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                        response = callback(request, *callback_args, **callback_kwargs)</pre> <span>...</span></li></ol>
+              
+                <ol start='110' class="post-context" id="post140618861995504"><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                    except Exception, e:</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                        # If the view raised an exception, run it through exception</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                        # middleware, and if the exception middleware returns a</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                        # response, use that. Otherwise, reraise the exception.</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                        for middleware_method in self._exception_middleware:</pre></li><li onclick="toggle('pre140618861995504', 'post140618861995504')"><pre>                            response = middleware_method(request, e)</pre></li></ol>
+              
+            </div>
+          
+
+          
+            <div class="commands">
+                
+                    <a href="#" onclick="return varToggle(this, '140618861995504')"><span>&#x25b6;</span> Local vars</a>
+                
+            </div>
+            <table class="vars" id="v140618861995504">
+              <thead>
+                <tr>
+                  <th>Variable</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                  <tr>
+                    <td>exceptions</td>
+                    <td class="code"><pre>&lt;module &#39;django.core.exceptions&#39; from &#39;/projects/shape-escape/django/core/exceptions.pyc&#39;&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>e</td>
+                    <td class="code"><pre>ValueError(&#39;No JSON object could be decoded&#39;,)</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>callback_args</td>
+                    <td class="code"><pre>()</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>settings</td>
+                    <td class="code"><pre>&lt;django.conf.LazySettings object at 0x7fe45b582a10&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>middleware_method</td>
+                    <td class="code"><pre>&lt;bound method TransactionMiddleware.process_exception of &lt;django.middleware.transaction.TransactionMiddleware object at 0x7fe468ec5310&gt;&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>self</td>
+                    <td class="code"><pre>&lt;django.core.handlers.modpython.ModPythonHandler object at 0x7fe464dba050&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>request</td>
+                    <td class="code"><pre>&quot;&lt;ModPythonRequest\npath:/mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/,\nGET:&lt;QueryDict: {}&gt;,\nPOST:&lt;QueryDict: {}&gt;,\nCOOKIES:{},\nMETA:{&#39;AUTH_TYPE&#39;: None,\n &#39;CONTENT_LENGTH&#39;: 0,\n &#39;CONTENT_TYPE&#39;: None,\n &#39;GATEWAY_INTERFACE&#39;: &#39;CGI/1.1&#39;,\n &#39;HTTP_CONNECTION&#39;: &#39;keep-alive&#39;,\n &#39;HTTP_HOST&#39;: &#39;shpescape.com&#39;,\n &#39;PATH_INFO&#39;: u&#39;/mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/&#39;,\n &#39;PATH_TRANSLATED&#39;: None,\n &#39;QUERY_STRING&#39;: None,\n &#39;REMOTE_ADDR&#39;: &#39;96.43.128.42&#39;,\n &#39;REMOTE_HOST&#39;: None,\n &#39;REMOTE_IDENT&#39;: None,\n &#39;REMOTE_USER&#39;: None,\n &#39;REQUEST_METHOD&#39;: &#39;GET&#39;,\n &#39;SCRIPT_NAME&#39;: &#39;&#39;,\n &#39;SERVER_NAME&#39;: &#39;shpescape.com&#39;,\n &#39;SERVER_PORT&#39;: 80,\n &#39;SERVER_PROTOCOL&#39;: &#39;HTTP/1.1&#39;,\n &#39;SERVER_SOFTWARE&#39;: &#39;mod_python&#39;}&gt;&quot;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>callback</td>
+                    <td class="code"><pre>&lt;function json_out at 0x7fe45c49e230&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>resolver</td>
+                    <td class="code"><pre>&lt;RegexURLResolver urls (None:None) ^/&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>urlresolvers</td>
+                    <td class="code"><pre>&lt;module &#39;django.core.urlresolvers&#39; from &#39;/projects/shape-escape/django/core/urlresolvers.pyc&#39;&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>callback_kwargs</td>
+                    <td class="code"><pre>{&#39;filename&#39;: u&#39;02408b66b49ad0a3a7feac9dd5d55d84.json&#39;}</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>response</td>
+                    <td class="code"><pre>None</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>urlconf</td>
+                    <td class="code"><pre>&#39;urls&#39;</pre></td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          
+        </li>
+      
+        <li class="frame user">
+          <code>/projects/shape-escape/converter/views.py</code> in <code>json_out</code>
+
+          
+            <div class="context" id="c140618861997520">
+              
+                <ol start="153" class="pre-context" id="pre140618861997520"><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre></pre></li><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>def json_out(request, filename):</pre></li><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>  filename = os.path.join(settings.CONVERT_UPLOAD_DIR, filename)</pre></li><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>  if not os.path.exists(filename):</pre></li><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>    error = {&#39;error&#39;:&#39;%s does not exist&#39; % filename }</pre></li><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>    return render_to_response(&#39;json&#39;, RequestContext(request,{&#39;json&#39;: error}))</pre></li><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>  f = open(filename).read()</pre></li></ol>
+              
+              <ol start="160" class="context-line"><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>  js = json.loads(f)</pre> <span>...</span></li></ol>
+              
+                <ol start='161' class="post-context" id="post140618861997520"><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>  response = render_to_response(&#39;json&#39;, RequestContext(request,{&#39;json&#39;: json.dumps(js, indent=2)}))</pre></li><li onclick="toggle('pre140618861997520', 'post140618861997520')"><pre>  return response</pre></li></ol>
+              
+            </div>
+          
+
+          
+            <div class="commands">
+                
+                    <a href="#" onclick="return varToggle(this, '140618861997520')"><span>&#x25b6;</span> Local vars</a>
+                
+            </div>
+            <table class="vars" id="v140618861997520">
+              <thead>
+                <tr>
+                  <th>Variable</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                  <tr>
+                    <td>filename</td>
+                    <td class="code"><pre>u&#39;/projects/tmp/02408b66b49ad0a3a7feac9dd5d55d84.json&#39;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>request</td>
+                    <td class="code"><pre>&quot;&lt;ModPythonRequest\npath:/mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/,\nGET:&lt;QueryDict: {}&gt;,\nPOST:&lt;QueryDict: {}&gt;,\nCOOKIES:{},\nMETA:{&#39;AUTH_TYPE&#39;: None,\n &#39;CONTENT_LENGTH&#39;: 0,\n &#39;CONTENT_TYPE&#39;: None,\n &#39;GATEWAY_INTERFACE&#39;: &#39;CGI/1.1&#39;,\n &#39;HTTP_CONNECTION&#39;: &#39;keep-alive&#39;,\n &#39;HTTP_HOST&#39;: &#39;shpescape.com&#39;,\n &#39;PATH_INFO&#39;: u&#39;/mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/&#39;,\n &#39;PATH_TRANSLATED&#39;: None,\n &#39;QUERY_STRING&#39;: None,\n &#39;REMOTE_ADDR&#39;: &#39;96.43.128.42&#39;,\n &#39;REMOTE_HOST&#39;: None,\n &#39;REMOTE_IDENT&#39;: None,\n &#39;REMOTE_USER&#39;: None,\n &#39;REQUEST_METHOD&#39;: &#39;GET&#39;,\n &#39;SCRIPT_NAME&#39;: &#39;&#39;,\n &#39;SERVER_NAME&#39;: &#39;shpescape.com&#39;,\n &#39;SERVER_PORT&#39;: 80,\n &#39;SERVER_PROTOCOL&#39;: &#39;HTTP/1.1&#39;,\n &#39;SERVER_SOFTWARE&#39;: &#39;mod_python&#39;}&gt;&quot;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>f</td>
+                    <td class="code"><pre>&#39;{\n&quot;type&quot;: &quot;FeatureCollection&quot;,\n                                                                                \n&quot;features&quot;: [\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 48.0, &quot;LAT&quot;: 25.98351, &quot;LON&quot;: -80.22985, &quot;POINT_X&quot;: 909162.005474, &quot;POINT_Y&quot;: 600442.28594, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.22985190259277, 25.983510415034079,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 49.0, &quot;LAT&quot;: 25.99639, &quot;LON&quot;: -80.22304, &quot;POINT_X&quot;: 911371.470511, &quot;POINT_Y&quot;: 605135.65241, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.223041618573788, 25.99638646397538,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 50.0, &quot;LAT&quot;: 26.00825, &quot;LON&quot;: -80.21358, &quot;POINT_X&quot;: 914451.95351, &quot;POINT_Y&quot;: 609467.70115, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.213584580498321, 26.008253714141812,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 40.0, &quot;LAT&quot;: 25.95692, &quot;LON&quot;: -80.34115, &quot;POINT_X&quot;: 872648.9597, &quot;POINT_Y&quot;: 590578.48114299995359, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.341146828018609, 25.956922061662425,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 41.0, &quot;LAT&quot;: 25.96667, &quot;LON&quot;: -80.32924, &quot;POINT_X&quot;: 876544.535659, &quot;POINT_Y&quot;: 594141.329294, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.329235905294169, 25.966669714209836,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 42.0, &quot;LAT&quot;: 25.9706, &quot;LON&quot;: -80.31421, &quot;POINT_X&quot;: 881474.819212, &quot;POINT_Y&quot;: 595596.55956, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.314207235625048, 25.970603008372581,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 43.0, &quot;LAT&quot;: 25.97066, &quot;LON&quot;: -80.29825, &quot;POINT_X&quot;: 886717.08828, &quot;POINT_Y&quot;: 595644.1284, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.298250988501479, 25.970657400292037,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 44.0, &quot;LAT&quot;: 25.97116, &quot;LON&quot;: -80.28219, &quot;POINT_X&quot;: 891992.057073, &quot;POINT_Y&quot;: 595853.62965, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.282192540967088, 25.971155041576711,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 45.0, &quot;LAT&quot;: 25.97165, &quot;LON&quot;: -80.26613, &quot;POINT_X&quot;: 897267.24905, &quot;POINT_Y&quot;: 596061.16371, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.266133359917248, 25.971645482636426,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 46.0, &quot;LAT&quot;: 25.97213, &quot;LON&quot;: -80.25009, &quot;POINT_X&quot;: 902537.27322, &quot;POINT_Y&quot;: 596267.031222, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.250089849819545, 25.972129636120858,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 47.0, &quot;LAT&quot;: 25.97263, &quot;LON&quot;: -80.23403, &quot;POINT_X&quot;: 907811.784889, &quot;POINT_Y&quot;: 596477.9498, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.234032509238475, 25.972625831251491,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 1.0, &quot;LAT&quot;: 25.4594, &quot;LON&quot;: -80.46645, &quot;POINT_X&quot;: 832206.114625, &quot;POINT_Y&quot;: 409564.327791, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.466453256531253, 25.459395045745008,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 2.0, &quot;LAT&quot;: 25.46824, &quot;LON&quot;: -80.45365, &quot;POINT_X&quot;: 836417.56971, &quot;POINT_Y&quot;: 412796.10298, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.45364932346078, 25.468240154957055,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 3.0, &quot;LAT&quot;: 25.47671, &quot;LON&quot;: -80.4406, &quot;POINT_X&quot;: 840708.29066, &quot;POINT_Y&quot;: 415891.59919, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.440604993884023, 25.476708227226624,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 4.0, &quot;LAT&quot;: 25.48514, &quot;LON&quot;: -80.42744, &quot;POINT_X&quot;: 845038.34423299995251, &quot;POINT_Y&quot;: 418972.71352, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.427439805121182, 25.485135064077262,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 5.0, &quot;LAT&quot;: 25.49626, &quot;LON&quot;: -80.41754, &quot;POINT_X&quot;: 848286.961106, &quot;POINT_Y&quot;: 423029.867395, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.41753828808325, 25.496259223655844,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 6.0, &quot;LAT&quot;: 25.50976, &quot;LON&quot;: -80.4133, &quot;POINT_X&quot;: 849664.18003, &quot;POINT_Y&quot;: 427942.73137, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.41329740323944, 25.509759890255367,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 7.0, &quot;LAT&quot;: 25.52049, &quot;LON&quot;: -80.40242, &quot;POINT_X&quot;: 853233.293942, &quot;POINT_Y&quot;: 431856.812418, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.402422660829117, 25.520485389549012,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 8.0, &quot;LAT&quot;: 25.52891, &quot;LON&quot;: -80.38996, &quot;POINT_X&quot;: 857328.44741, &quot;POINT_Y&quot;: 434936.504934, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.389962381224876, 25.528907669955178,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 9.0, &quot;LAT&quot;: 25.53171, &quot;LON&quot;: -80.37421, &quot;POINT_X&quot;: 862517.475253, &quot;POINT_Y&quot;: 435979.261904, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.37421213035303, 25.531710333371588,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 10.0, &quot;LAT&quot;: 25.5416, &quot;LON&quot;: -80.36331, &quot;POINT_X&quot;: 866094.536975, &quot;POINT_Y&quot;: 439590.41913, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.36331225324389, 25.541599237874561,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 11.0, &quot;LAT&quot;: 25.5561, &quot;LON&quot;: -80.36264, &quot;POINT_X&quot;: 866289.939065, &quot;POINT_Y&quot;: 444863.0249, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.362642931164544, 25.556103538050603,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 12.0, &quot;LAT&quot;: 25.57068, &quot;LON&quot;: -80.36283, &quot;POINT_X&quot;: 866203.13804, &quot;POINT_Y&quot;: 450160.26575, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.36282910346047, 25.570679312115754,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 13.0, &quot;LAT&quot;: 25.5848, &quot;LON&quot;: -80.36701, &quot;POINT_X&quot;: 864799.66343, &quot;POINT_Y&quot;: 455286.7991, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.367012327910103, 25.584802720102182,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 14.0, &quot;LAT&quot;: 25.59735, &quot;LON&quot;: -80.3743, &quot;POINT_X&quot;: 862374.692702, &quot;POINT_Y&quot;: 459834.84175, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.374304194542347, 25.597347661408346,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 15.0, &quot;LAT&quot;: 25.61095, &quot;LON&quot;: -80.37819, &quot;POINT_X&quot;: 861070.93208, &quot;POINT_Y&quot;: 464773.30963299999712, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.378189724175527, 25.610952011577854,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 16.0, &quot;LAT&quot;: 25.62582, &quot;LON&quot;: -80.37893, &quot;POINT_X&quot;: 860800.50732, &quot;POINT_Y&quot;: 470175.076033, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.37893349929081, 25.625817650448347,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 17.0, &quot;LAT&quot;: 25.63827, &quot;LON&quot;: -80.38518, &quot;POINT_X&quot;: 858719.89166, &quot;POINT_Y&quot;: 474691.05243, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385184283660465, 25.638269374814641,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 18.0, &quot;LAT&quot;: 25.65244, &quot;LON&quot;: -80.38572, &quot;POINT_X&quot;: 858518.275906, &quot;POINT_Y&quot;: 479839.44888, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385723716073372, 25.6524369565482,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 19.0, &quot;LAT&quot;: 25.66676, &quot;LON&quot;: -80.38713, &quot;POINT_X&quot;: 858032.38795, &quot;POINT_Y&quot;: 485044.35311, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.387125466626159, 25.666763609226546,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 20.0, &quot;LAT&quot;: 25.68121, &quot;LON&quot;: -80.38878, &quot;POINT_X&quot;: 857462.612344, &quot;POINT_Y&quot;: 490292.44075, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.388781614498583, 25.681210105574252,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 21.0, &quot;LAT&quot;: 25.6951, &quot;LON&quot;: -80.38638, &quot;POINT_X&quot;: 858228.68216, &quot;POINT_Y&quot;: 495345.72, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386384382698111, 25.695103569922537,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 22.0, &quot;LAT&quot;: 25.70915, &quot;LON&quot;: -80.38324, &quot;POINT_X&quot;: 859241.51996499998495, &quot;POINT_Y&quot;: 500455.24726, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38323633147165, 25.70914854554352,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 23.0, &quot;LAT&quot;: 25.72512, &quot;LON&quot;: -80.3836, &quot;POINT_X&quot;: 859095.623808, &quot;POINT_Y&quot;: 506258.444756, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.383597137854608, 25.725116846265127,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 24.0, &quot;LAT&quot;: 25.73971, &quot;LON&quot;: -80.38439, &quot;POINT_X&quot;: 858808.40589, &quot;POINT_Y&quot;: 511560.70635, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.384394400237355, 25.739708698400371,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 25.0, &quot;LAT&quot;: 25.75284, &quot;LON&quot;: -80.38491, &quot;POINT_X&quot;: 858616.35919, &quot;POINT_Y&quot;: 516331.10043, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.384910212032651, 25.752835972461089,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 26.0, &quot;LAT&quot;: 25.76735, &quot;LON&quot;: -80.38541, &quot;POINT_X&quot;: 858426.973552, &quot;POINT_Y&quot;: 521604.13275, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38541089906893, 25.767346095316704,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 27.0, &quot;LAT&quot;: 25.78192, &quot;LON&quot;: -80.38574, &quot;POINT_X&quot;: 858295.455832, &quot;POINT_Y&quot;: 526899.0994, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38573550548935, 25.78191579613965,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 28.0, &quot;LAT&quot;: 25.79659, &quot;LON&quot;: -80.38578, &quot;POINT_X&quot;: 858255.35597, &quot;POINT_Y&quot;: 532233.68033, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385781753459554, 25.796593285216478,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 29.0, &quot;LAT&quot;: 25.81119, &quot;LON&quot;: -80.3862, &quot;POINT_X&quot;: 858091.54645799996797, &quot;POINT_Y&quot;: 537539.70594799995888, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386204402758523, 25.811193769239114,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 30.0, &quot;LAT&quot;: 25.82579, &quot;LON&quot;: -80.3866, &quot;POINT_X&quot;: 857935.165613, &quot;POINT_Y&quot;: 542845.66927, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386604534754468, 25.825793958965232,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 31.0, &quot;LAT&quot;: 25.84038, &quot;LON&quot;: -80.38694, &quot;POINT_X&quot;: 857799.973298, &quot;POINT_Y&quot;: 548146.81786, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386940373335136, 25.840380601056555,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 32.0, &quot;LAT&quot;: 25.85497, &quot;LON&quot;: -80.38736, &quot;POINT_X&quot;: 857637.108384, &quot;POINT_Y&quot;: 553447.69913, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38736040232331, 25.854966834944133,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 33.0, &quot;LAT&quot;: 25.86957, &quot;LON&quot;: -80.38782, &quot;POINT_X&quot;: 857462.39342, &quot;POINT_Y&quot;: 558753.369838, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.387816465201922, 25.869566368269847,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 34.0, &quot;LAT&quot;: 25.88415, &quot;LON&quot;: -80.38843, &quot;POINT_X&quot;: 857234.5817, &quot;POINT_Y&quot;: 564051.404788, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.388434198643154, 25.884145546816878,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 35.0, &quot;LAT&quot;: 25.89839, &quot;LON&quot;: -80.3861, &quot;POINT_X&quot;: 857976.91523, &quot;POINT_Y&quot;: 569232.788899, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386102695488248, 25.898391298588809,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 36.0, &quot;LAT&quot;: 25.91225, &quot;LON&quot;: -80.38102, &quot;POINT_X&quot;: 859624.27978, &quot;POINT_Y&quot;: 574279.14252, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.381019270224357, 25.912253744879781,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 37.0, &quot;LAT&quot;: 25.9261, &quot;LON&quot;: -80.37587, &quot;POINT_X&quot;: 861292.08529, &quot;POINT_Y&quot;: 579318.98129499994684, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.375872526628115, 25.926097772543049,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 38.0, &quot;LAT&quot;: 25.93694, &quot;LON&quot;: -80.36546, &quot;POINT_X&quot;: 864695.46633, &quot;POINT_Y&quot;: 583276.71807, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.365459368061551, 25.936941429344312,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 39.0, &quot;LAT&quot;: 25.94679, &quot;LON&quot;: -80.35353, &quot;POINT_X&quot;: 868599.333114, &quot;POINT_Y&quot;: 586874.00117, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.353526704181292, 25.946785811337499,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 3.0, &quot;LAT&quot;: 25.96747, &quot;LON&quot;: -80.22941, &quot;POINT_X&quot;: 909340.647907, &quot;POINT_Y&quot;: 594613.80268, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.229412646537796, 25.967472619242368,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 2.0, &quot;LAT&quot;: 25.95296, &quot;LON&quot;: -80.22874, &quot;POINT_X&quot;: 909591.263519, &quot;POINT_Y&quot;: 589341.53203, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.228744458286428, 25.95296384032746,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 1.0, &quot;LAT&quot;: 25.94039, &quot;LON&quot;: -80.22127, &quot;POINT_X&quot;: 912073.2695, &quot;POINT_Y&quot;: 584785.598843, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.221273891599992, 25.940389437368797,  ] } }\n\n]\n}\n&#39;</pre></td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          
+        </li>
+      
+        <li class="frame user">
+          <code>/usr/lib/python2.7/json/__init__.py</code> in <code>loads</code>
+
+          
+            <div class="context" id="c140618861997232">
+              
+                <ol start="319" class="pre-context" id="pre140618861997232"><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>    To use a custom ``JSONDecoder`` subclass, specify it with the ``cls``</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>    kwarg; otherwise ``JSONDecoder`` is used.</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre></pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>    &quot;&quot;&quot;</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>    if (cls is None and encoding is None and object_hook is None and</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>            parse_int is None and parse_float is None and</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>            parse_constant is None and object_pairs_hook is None and not kw):</pre></li></ol>
+              
+              <ol start="326" class="context-line"><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>        return _default_decoder.decode(s)</pre> <span>...</span></li></ol>
+              
+                <ol start='327' class="post-context" id="post140618861997232"><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>    if cls is None:</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>        cls = JSONDecoder</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>    if object_hook is not None:</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>        kw[&#39;object_hook&#39;] = object_hook</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>    if object_pairs_hook is not None:</pre></li><li onclick="toggle('pre140618861997232', 'post140618861997232')"><pre>        kw[&#39;object_pairs_hook&#39;] = object_pairs_hook</pre></li></ol>
+              
+            </div>
+          
+
+          
+            <div class="commands">
+                
+                    <a href="#" onclick="return varToggle(this, '140618861997232')"><span>&#x25b6;</span> Local vars</a>
+                
+            </div>
+            <table class="vars" id="v140618861997232">
+              <thead>
+                <tr>
+                  <th>Variable</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                  <tr>
+                    <td>parse_int</td>
+                    <td class="code"><pre>None</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>parse_float</td>
+                    <td class="code"><pre>None</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>object_hook</td>
+                    <td class="code"><pre>None</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>encoding</td>
+                    <td class="code"><pre>None</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>parse_constant</td>
+                    <td class="code"><pre>None</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>s</td>
+                    <td class="code"><pre>&#39;{\n&quot;type&quot;: &quot;FeatureCollection&quot;,\n                                                                                \n&quot;features&quot;: [\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 48.0, &quot;LAT&quot;: 25.98351, &quot;LON&quot;: -80.22985, &quot;POINT_X&quot;: 909162.005474, &quot;POINT_Y&quot;: 600442.28594, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.22985190259277, 25.983510415034079,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 49.0, &quot;LAT&quot;: 25.99639, &quot;LON&quot;: -80.22304, &quot;POINT_X&quot;: 911371.470511, &quot;POINT_Y&quot;: 605135.65241, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.223041618573788, 25.99638646397538,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 50.0, &quot;LAT&quot;: 26.00825, &quot;LON&quot;: -80.21358, &quot;POINT_X&quot;: 914451.95351, &quot;POINT_Y&quot;: 609467.70115, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.213584580498321, 26.008253714141812,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 40.0, &quot;LAT&quot;: 25.95692, &quot;LON&quot;: -80.34115, &quot;POINT_X&quot;: 872648.9597, &quot;POINT_Y&quot;: 590578.48114299995359, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.341146828018609, 25.956922061662425,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 41.0, &quot;LAT&quot;: 25.96667, &quot;LON&quot;: -80.32924, &quot;POINT_X&quot;: 876544.535659, &quot;POINT_Y&quot;: 594141.329294, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.329235905294169, 25.966669714209836,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 42.0, &quot;LAT&quot;: 25.9706, &quot;LON&quot;: -80.31421, &quot;POINT_X&quot;: 881474.819212, &quot;POINT_Y&quot;: 595596.55956, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.314207235625048, 25.970603008372581,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 43.0, &quot;LAT&quot;: 25.97066, &quot;LON&quot;: -80.29825, &quot;POINT_X&quot;: 886717.08828, &quot;POINT_Y&quot;: 595644.1284, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.298250988501479, 25.970657400292037,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 44.0, &quot;LAT&quot;: 25.97116, &quot;LON&quot;: -80.28219, &quot;POINT_X&quot;: 891992.057073, &quot;POINT_Y&quot;: 595853.62965, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.282192540967088, 25.971155041576711,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 45.0, &quot;LAT&quot;: 25.97165, &quot;LON&quot;: -80.26613, &quot;POINT_X&quot;: 897267.24905, &quot;POINT_Y&quot;: 596061.16371, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.266133359917248, 25.971645482636426,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 46.0, &quot;LAT&quot;: 25.97213, &quot;LON&quot;: -80.25009, &quot;POINT_X&quot;: 902537.27322, &quot;POINT_Y&quot;: 596267.031222, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.250089849819545, 25.972129636120858,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 47.0, &quot;LAT&quot;: 25.97263, &quot;LON&quot;: -80.23403, &quot;POINT_X&quot;: 907811.784889, &quot;POINT_Y&quot;: 596477.9498, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.234032509238475, 25.972625831251491,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 1.0, &quot;LAT&quot;: 25.4594, &quot;LON&quot;: -80.46645, &quot;POINT_X&quot;: 832206.114625, &quot;POINT_Y&quot;: 409564.327791, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.466453256531253, 25.459395045745008,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 2.0, &quot;LAT&quot;: 25.46824, &quot;LON&quot;: -80.45365, &quot;POINT_X&quot;: 836417.56971, &quot;POINT_Y&quot;: 412796.10298, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.45364932346078, 25.468240154957055,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 3.0, &quot;LAT&quot;: 25.47671, &quot;LON&quot;: -80.4406, &quot;POINT_X&quot;: 840708.29066, &quot;POINT_Y&quot;: 415891.59919, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.440604993884023, 25.476708227226624,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 4.0, &quot;LAT&quot;: 25.48514, &quot;LON&quot;: -80.42744, &quot;POINT_X&quot;: 845038.34423299995251, &quot;POINT_Y&quot;: 418972.71352, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.427439805121182, 25.485135064077262,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 5.0, &quot;LAT&quot;: 25.49626, &quot;LON&quot;: -80.41754, &quot;POINT_X&quot;: 848286.961106, &quot;POINT_Y&quot;: 423029.867395, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.41753828808325, 25.496259223655844,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 6.0, &quot;LAT&quot;: 25.50976, &quot;LON&quot;: -80.4133, &quot;POINT_X&quot;: 849664.18003, &quot;POINT_Y&quot;: 427942.73137, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.41329740323944, 25.509759890255367,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 7.0, &quot;LAT&quot;: 25.52049, &quot;LON&quot;: -80.40242, &quot;POINT_X&quot;: 853233.293942, &quot;POINT_Y&quot;: 431856.812418, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.402422660829117, 25.520485389549012,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 8.0, &quot;LAT&quot;: 25.52891, &quot;LON&quot;: -80.38996, &quot;POINT_X&quot;: 857328.44741, &quot;POINT_Y&quot;: 434936.504934, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.389962381224876, 25.528907669955178,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 9.0, &quot;LAT&quot;: 25.53171, &quot;LON&quot;: -80.37421, &quot;POINT_X&quot;: 862517.475253, &quot;POINT_Y&quot;: 435979.261904, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.37421213035303, 25.531710333371588,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 10.0, &quot;LAT&quot;: 25.5416, &quot;LON&quot;: -80.36331, &quot;POINT_X&quot;: 866094.536975, &quot;POINT_Y&quot;: 439590.41913, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.36331225324389, 25.541599237874561,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 11.0, &quot;LAT&quot;: 25.5561, &quot;LON&quot;: -80.36264, &quot;POINT_X&quot;: 866289.939065, &quot;POINT_Y&quot;: 444863.0249, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.362642931164544, 25.556103538050603,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 12.0, &quot;LAT&quot;: 25.57068, &quot;LON&quot;: -80.36283, &quot;POINT_X&quot;: 866203.13804, &quot;POINT_Y&quot;: 450160.26575, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.36282910346047, 25.570679312115754,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 13.0, &quot;LAT&quot;: 25.5848, &quot;LON&quot;: -80.36701, &quot;POINT_X&quot;: 864799.66343, &quot;POINT_Y&quot;: 455286.7991, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.367012327910103, 25.584802720102182,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 14.0, &quot;LAT&quot;: 25.59735, &quot;LON&quot;: -80.3743, &quot;POINT_X&quot;: 862374.692702, &quot;POINT_Y&quot;: 459834.84175, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.374304194542347, 25.597347661408346,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 15.0, &quot;LAT&quot;: 25.61095, &quot;LON&quot;: -80.37819, &quot;POINT_X&quot;: 861070.93208, &quot;POINT_Y&quot;: 464773.30963299999712, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.378189724175527, 25.610952011577854,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 16.0, &quot;LAT&quot;: 25.62582, &quot;LON&quot;: -80.37893, &quot;POINT_X&quot;: 860800.50732, &quot;POINT_Y&quot;: 470175.076033, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.37893349929081, 25.625817650448347,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 17.0, &quot;LAT&quot;: 25.63827, &quot;LON&quot;: -80.38518, &quot;POINT_X&quot;: 858719.89166, &quot;POINT_Y&quot;: 474691.05243, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385184283660465, 25.638269374814641,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 18.0, &quot;LAT&quot;: 25.65244, &quot;LON&quot;: -80.38572, &quot;POINT_X&quot;: 858518.275906, &quot;POINT_Y&quot;: 479839.44888, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385723716073372, 25.6524369565482,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 19.0, &quot;LAT&quot;: 25.66676, &quot;LON&quot;: -80.38713, &quot;POINT_X&quot;: 858032.38795, &quot;POINT_Y&quot;: 485044.35311, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.387125466626159, 25.666763609226546,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 20.0, &quot;LAT&quot;: 25.68121, &quot;LON&quot;: -80.38878, &quot;POINT_X&quot;: 857462.612344, &quot;POINT_Y&quot;: 490292.44075, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.388781614498583, 25.681210105574252,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 21.0, &quot;LAT&quot;: 25.6951, &quot;LON&quot;: -80.38638, &quot;POINT_X&quot;: 858228.68216, &quot;POINT_Y&quot;: 495345.72, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386384382698111, 25.695103569922537,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 22.0, &quot;LAT&quot;: 25.70915, &quot;LON&quot;: -80.38324, &quot;POINT_X&quot;: 859241.51996499998495, &quot;POINT_Y&quot;: 500455.24726, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38323633147165, 25.70914854554352,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 23.0, &quot;LAT&quot;: 25.72512, &quot;LON&quot;: -80.3836, &quot;POINT_X&quot;: 859095.623808, &quot;POINT_Y&quot;: 506258.444756, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.383597137854608, 25.725116846265127,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 24.0, &quot;LAT&quot;: 25.73971, &quot;LON&quot;: -80.38439, &quot;POINT_X&quot;: 858808.40589, &quot;POINT_Y&quot;: 511560.70635, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.384394400237355, 25.739708698400371,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 25.0, &quot;LAT&quot;: 25.75284, &quot;LON&quot;: -80.38491, &quot;POINT_X&quot;: 858616.35919, &quot;POINT_Y&quot;: 516331.10043, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.384910212032651, 25.752835972461089,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 26.0, &quot;LAT&quot;: 25.76735, &quot;LON&quot;: -80.38541, &quot;POINT_X&quot;: 858426.973552, &quot;POINT_Y&quot;: 521604.13275, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38541089906893, 25.767346095316704,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 27.0, &quot;LAT&quot;: 25.78192, &quot;LON&quot;: -80.38574, &quot;POINT_X&quot;: 858295.455832, &quot;POINT_Y&quot;: 526899.0994, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38573550548935, 25.78191579613965,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 28.0, &quot;LAT&quot;: 25.79659, &quot;LON&quot;: -80.38578, &quot;POINT_X&quot;: 858255.35597, &quot;POINT_Y&quot;: 532233.68033, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385781753459554, 25.796593285216478,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 29.0, &quot;LAT&quot;: 25.81119, &quot;LON&quot;: -80.3862, &quot;POINT_X&quot;: 858091.54645799996797, &quot;POINT_Y&quot;: 537539.70594799995888, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386204402758523, 25.811193769239114,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 30.0, &quot;LAT&quot;: 25.82579, &quot;LON&quot;: -80.3866, &quot;POINT_X&quot;: 857935.165613, &quot;POINT_Y&quot;: 542845.66927, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386604534754468, 25.825793958965232,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 31.0, &quot;LAT&quot;: 25.84038, &quot;LON&quot;: -80.38694, &quot;POINT_X&quot;: 857799.973298, &quot;POINT_Y&quot;: 548146.81786, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386940373335136, 25.840380601056555,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 32.0, &quot;LAT&quot;: 25.85497, &quot;LON&quot;: -80.38736, &quot;POINT_X&quot;: 857637.108384, &quot;POINT_Y&quot;: 553447.69913, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38736040232331, 25.854966834944133,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 33.0, &quot;LAT&quot;: 25.86957, &quot;LON&quot;: -80.38782, &quot;POINT_X&quot;: 857462.39342, &quot;POINT_Y&quot;: 558753.369838, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.387816465201922, 25.869566368269847,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 34.0, &quot;LAT&quot;: 25.88415, &quot;LON&quot;: -80.38843, &quot;POINT_X&quot;: 857234.5817, &quot;POINT_Y&quot;: 564051.404788, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.388434198643154, 25.884145546816878,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 35.0, &quot;LAT&quot;: 25.89839, &quot;LON&quot;: -80.3861, &quot;POINT_X&quot;: 857976.91523, &quot;POINT_Y&quot;: 569232.788899, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386102695488248, 25.898391298588809,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 36.0, &quot;LAT&quot;: 25.91225, &quot;LON&quot;: -80.38102, &quot;POINT_X&quot;: 859624.27978, &quot;POINT_Y&quot;: 574279.14252, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.381019270224357, 25.912253744879781,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 37.0, &quot;LAT&quot;: 25.9261, &quot;LON&quot;: -80.37587, &quot;POINT_X&quot;: 861292.08529, &quot;POINT_Y&quot;: 579318.98129499994684, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.375872526628115, 25.926097772543049,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 38.0, &quot;LAT&quot;: 25.93694, &quot;LON&quot;: -80.36546, &quot;POINT_X&quot;: 864695.46633, &quot;POINT_Y&quot;: 583276.71807, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.365459368061551, 25.936941429344312,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 39.0, &quot;LAT&quot;: 25.94679, &quot;LON&quot;: -80.35353, &quot;POINT_X&quot;: 868599.333114, &quot;POINT_Y&quot;: 586874.00117, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.353526704181292, 25.946785811337499,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 3.0, &quot;LAT&quot;: 25.96747, &quot;LON&quot;: -80.22941, &quot;POINT_X&quot;: 909340.647907, &quot;POINT_Y&quot;: 594613.80268, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.229412646537796, 25.967472619242368,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 2.0, &quot;LAT&quot;: 25.95296, &quot;LON&quot;: -80.22874, &quot;POINT_X&quot;: 909591.263519, &quot;POINT_Y&quot;: 589341.53203, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.228744458286428, 25.95296384032746,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 1.0, &quot;LAT&quot;: 25.94039, &quot;LON&quot;: -80.22127, &quot;POINT_X&quot;: 912073.2695, &quot;POINT_Y&quot;: 584785.598843, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.221273891599992, 25.940389437368797,  ] } }\n\n]\n}\n&#39;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>kw</td>
+                    <td class="code"><pre>{}</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>object_pairs_hook</td>
+                    <td class="code"><pre>None</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>cls</td>
+                    <td class="code"><pre>None</pre></td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          
+        </li>
+      
+        <li class="frame user">
+          <code>/usr/lib/python2.7/json/decoder.py</code> in <code>decode</code>
+
+          
+            <div class="context" id="c140618779706936">
+              
+                <ol start="358" class="pre-context" id="pre140618779706936"><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>        self.scan_once = scanner.make_scanner(self)</pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre></pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>    def decode(self, s, _w=WHITESPACE.match):</pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>        &quot;&quot;&quot;Return the Python representation of ``s`` (a ``str`` or ``unicode``</pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>        instance containing a JSON document)</pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre></pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>        &quot;&quot;&quot;</pre></li></ol>
+              
+              <ol start="365" class="context-line"><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>        obj, end = self.raw_decode(s, idx=_w(s, 0).end())</pre> <span>...</span></li></ol>
+              
+                <ol start='366' class="post-context" id="post140618779706936"><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>        end = _w(s, end).end()</pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>        if end != len(s):</pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>            raise ValueError(errmsg(&quot;Extra data&quot;, s, end, len(s)))</pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>        return obj</pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre></pre></li><li onclick="toggle('pre140618779706936', 'post140618779706936')"><pre>    def raw_decode(self, s, idx=0):</pre></li></ol>
+              
+            </div>
+          
+
+          
+            <div class="commands">
+                
+                    <a href="#" onclick="return varToggle(this, '140618779706936')"><span>&#x25b6;</span> Local vars</a>
+                
+            </div>
+            <table class="vars" id="v140618779706936">
+              <thead>
+                <tr>
+                  <th>Variable</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                  <tr>
+                    <td>_w</td>
+                    <td class="code"><pre>&lt;built-in method match of _sre.SRE_Pattern object at 0x7fe45c00ee90&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>s</td>
+                    <td class="code"><pre>&#39;{\n&quot;type&quot;: &quot;FeatureCollection&quot;,\n                                                                                \n&quot;features&quot;: [\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 48.0, &quot;LAT&quot;: 25.98351, &quot;LON&quot;: -80.22985, &quot;POINT_X&quot;: 909162.005474, &quot;POINT_Y&quot;: 600442.28594, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.22985190259277, 25.983510415034079,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 49.0, &quot;LAT&quot;: 25.99639, &quot;LON&quot;: -80.22304, &quot;POINT_X&quot;: 911371.470511, &quot;POINT_Y&quot;: 605135.65241, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.223041618573788, 25.99638646397538,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 50.0, &quot;LAT&quot;: 26.00825, &quot;LON&quot;: -80.21358, &quot;POINT_X&quot;: 914451.95351, &quot;POINT_Y&quot;: 609467.70115, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.213584580498321, 26.008253714141812,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 40.0, &quot;LAT&quot;: 25.95692, &quot;LON&quot;: -80.34115, &quot;POINT_X&quot;: 872648.9597, &quot;POINT_Y&quot;: 590578.48114299995359, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.341146828018609, 25.956922061662425,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 41.0, &quot;LAT&quot;: 25.96667, &quot;LON&quot;: -80.32924, &quot;POINT_X&quot;: 876544.535659, &quot;POINT_Y&quot;: 594141.329294, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.329235905294169, 25.966669714209836,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 42.0, &quot;LAT&quot;: 25.9706, &quot;LON&quot;: -80.31421, &quot;POINT_X&quot;: 881474.819212, &quot;POINT_Y&quot;: 595596.55956, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.314207235625048, 25.970603008372581,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 43.0, &quot;LAT&quot;: 25.97066, &quot;LON&quot;: -80.29825, &quot;POINT_X&quot;: 886717.08828, &quot;POINT_Y&quot;: 595644.1284, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.298250988501479, 25.970657400292037,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 44.0, &quot;LAT&quot;: 25.97116, &quot;LON&quot;: -80.28219, &quot;POINT_X&quot;: 891992.057073, &quot;POINT_Y&quot;: 595853.62965, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.282192540967088, 25.971155041576711,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 45.0, &quot;LAT&quot;: 25.97165, &quot;LON&quot;: -80.26613, &quot;POINT_X&quot;: 897267.24905, &quot;POINT_Y&quot;: 596061.16371, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.266133359917248, 25.971645482636426,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 46.0, &quot;LAT&quot;: 25.97213, &quot;LON&quot;: -80.25009, &quot;POINT_X&quot;: 902537.27322, &quot;POINT_Y&quot;: 596267.031222, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.250089849819545, 25.972129636120858,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 47.0, &quot;LAT&quot;: 25.97263, &quot;LON&quot;: -80.23403, &quot;POINT_X&quot;: 907811.784889, &quot;POINT_Y&quot;: 596477.9498, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.234032509238475, 25.972625831251491,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 1.0, &quot;LAT&quot;: 25.4594, &quot;LON&quot;: -80.46645, &quot;POINT_X&quot;: 832206.114625, &quot;POINT_Y&quot;: 409564.327791, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.466453256531253, 25.459395045745008,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 2.0, &quot;LAT&quot;: 25.46824, &quot;LON&quot;: -80.45365, &quot;POINT_X&quot;: 836417.56971, &quot;POINT_Y&quot;: 412796.10298, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.45364932346078, 25.468240154957055,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 3.0, &quot;LAT&quot;: 25.47671, &quot;LON&quot;: -80.4406, &quot;POINT_X&quot;: 840708.29066, &quot;POINT_Y&quot;: 415891.59919, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.440604993884023, 25.476708227226624,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 4.0, &quot;LAT&quot;: 25.48514, &quot;LON&quot;: -80.42744, &quot;POINT_X&quot;: 845038.34423299995251, &quot;POINT_Y&quot;: 418972.71352, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.427439805121182, 25.485135064077262,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 5.0, &quot;LAT&quot;: 25.49626, &quot;LON&quot;: -80.41754, &quot;POINT_X&quot;: 848286.961106, &quot;POINT_Y&quot;: 423029.867395, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.41753828808325, 25.496259223655844,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 6.0, &quot;LAT&quot;: 25.50976, &quot;LON&quot;: -80.4133, &quot;POINT_X&quot;: 849664.18003, &quot;POINT_Y&quot;: 427942.73137, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.41329740323944, 25.509759890255367,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 7.0, &quot;LAT&quot;: 25.52049, &quot;LON&quot;: -80.40242, &quot;POINT_X&quot;: 853233.293942, &quot;POINT_Y&quot;: 431856.812418, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.402422660829117, 25.520485389549012,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 8.0, &quot;LAT&quot;: 25.52891, &quot;LON&quot;: -80.38996, &quot;POINT_X&quot;: 857328.44741, &quot;POINT_Y&quot;: 434936.504934, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.389962381224876, 25.528907669955178,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 9.0, &quot;LAT&quot;: 25.53171, &quot;LON&quot;: -80.37421, &quot;POINT_X&quot;: 862517.475253, &quot;POINT_Y&quot;: 435979.261904, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.37421213035303, 25.531710333371588,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 10.0, &quot;LAT&quot;: 25.5416, &quot;LON&quot;: -80.36331, &quot;POINT_X&quot;: 866094.536975, &quot;POINT_Y&quot;: 439590.41913, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.36331225324389, 25.541599237874561,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 11.0, &quot;LAT&quot;: 25.5561, &quot;LON&quot;: -80.36264, &quot;POINT_X&quot;: 866289.939065, &quot;POINT_Y&quot;: 444863.0249, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.362642931164544, 25.556103538050603,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 12.0, &quot;LAT&quot;: 25.57068, &quot;LON&quot;: -80.36283, &quot;POINT_X&quot;: 866203.13804, &quot;POINT_Y&quot;: 450160.26575, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.36282910346047, 25.570679312115754,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 13.0, &quot;LAT&quot;: 25.5848, &quot;LON&quot;: -80.36701, &quot;POINT_X&quot;: 864799.66343, &quot;POINT_Y&quot;: 455286.7991, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.367012327910103, 25.584802720102182,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 14.0, &quot;LAT&quot;: 25.59735, &quot;LON&quot;: -80.3743, &quot;POINT_X&quot;: 862374.692702, &quot;POINT_Y&quot;: 459834.84175, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.374304194542347, 25.597347661408346,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 15.0, &quot;LAT&quot;: 25.61095, &quot;LON&quot;: -80.37819, &quot;POINT_X&quot;: 861070.93208, &quot;POINT_Y&quot;: 464773.30963299999712, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.378189724175527, 25.610952011577854,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 16.0, &quot;LAT&quot;: 25.62582, &quot;LON&quot;: -80.37893, &quot;POINT_X&quot;: 860800.50732, &quot;POINT_Y&quot;: 470175.076033, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.37893349929081, 25.625817650448347,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 17.0, &quot;LAT&quot;: 25.63827, &quot;LON&quot;: -80.38518, &quot;POINT_X&quot;: 858719.89166, &quot;POINT_Y&quot;: 474691.05243, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385184283660465, 25.638269374814641,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 18.0, &quot;LAT&quot;: 25.65244, &quot;LON&quot;: -80.38572, &quot;POINT_X&quot;: 858518.275906, &quot;POINT_Y&quot;: 479839.44888, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385723716073372, 25.6524369565482,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 19.0, &quot;LAT&quot;: 25.66676, &quot;LON&quot;: -80.38713, &quot;POINT_X&quot;: 858032.38795, &quot;POINT_Y&quot;: 485044.35311, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.387125466626159, 25.666763609226546,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 20.0, &quot;LAT&quot;: 25.68121, &quot;LON&quot;: -80.38878, &quot;POINT_X&quot;: 857462.612344, &quot;POINT_Y&quot;: 490292.44075, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.388781614498583, 25.681210105574252,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 21.0, &quot;LAT&quot;: 25.6951, &quot;LON&quot;: -80.38638, &quot;POINT_X&quot;: 858228.68216, &quot;POINT_Y&quot;: 495345.72, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386384382698111, 25.695103569922537,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 22.0, &quot;LAT&quot;: 25.70915, &quot;LON&quot;: -80.38324, &quot;POINT_X&quot;: 859241.51996499998495, &quot;POINT_Y&quot;: 500455.24726, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38323633147165, 25.70914854554352,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 23.0, &quot;LAT&quot;: 25.72512, &quot;LON&quot;: -80.3836, &quot;POINT_X&quot;: 859095.623808, &quot;POINT_Y&quot;: 506258.444756, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.383597137854608, 25.725116846265127,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 24.0, &quot;LAT&quot;: 25.73971, &quot;LON&quot;: -80.38439, &quot;POINT_X&quot;: 858808.40589, &quot;POINT_Y&quot;: 511560.70635, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.384394400237355, 25.739708698400371,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 25.0, &quot;LAT&quot;: 25.75284, &quot;LON&quot;: -80.38491, &quot;POINT_X&quot;: 858616.35919, &quot;POINT_Y&quot;: 516331.10043, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.384910212032651, 25.752835972461089,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 26.0, &quot;LAT&quot;: 25.76735, &quot;LON&quot;: -80.38541, &quot;POINT_X&quot;: 858426.973552, &quot;POINT_Y&quot;: 521604.13275, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38541089906893, 25.767346095316704,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 27.0, &quot;LAT&quot;: 25.78192, &quot;LON&quot;: -80.38574, &quot;POINT_X&quot;: 858295.455832, &quot;POINT_Y&quot;: 526899.0994, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38573550548935, 25.78191579613965,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 28.0, &quot;LAT&quot;: 25.79659, &quot;LON&quot;: -80.38578, &quot;POINT_X&quot;: 858255.35597, &quot;POINT_Y&quot;: 532233.68033, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385781753459554, 25.796593285216478,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 29.0, &quot;LAT&quot;: 25.81119, &quot;LON&quot;: -80.3862, &quot;POINT_X&quot;: 858091.54645799996797, &quot;POINT_Y&quot;: 537539.70594799995888, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386204402758523, 25.811193769239114,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 30.0, &quot;LAT&quot;: 25.82579, &quot;LON&quot;: -80.3866, &quot;POINT_X&quot;: 857935.165613, &quot;POINT_Y&quot;: 542845.66927, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386604534754468, 25.825793958965232,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 31.0, &quot;LAT&quot;: 25.84038, &quot;LON&quot;: -80.38694, &quot;POINT_X&quot;: 857799.973298, &quot;POINT_Y&quot;: 548146.81786, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386940373335136, 25.840380601056555,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 32.0, &quot;LAT&quot;: 25.85497, &quot;LON&quot;: -80.38736, &quot;POINT_X&quot;: 857637.108384, &quot;POINT_Y&quot;: 553447.69913, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38736040232331, 25.854966834944133,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 33.0, &quot;LAT&quot;: 25.86957, &quot;LON&quot;: -80.38782, &quot;POINT_X&quot;: 857462.39342, &quot;POINT_Y&quot;: 558753.369838, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.387816465201922, 25.869566368269847,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 34.0, &quot;LAT&quot;: 25.88415, &quot;LON&quot;: -80.38843, &quot;POINT_X&quot;: 857234.5817, &quot;POINT_Y&quot;: 564051.404788, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.388434198643154, 25.884145546816878,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 35.0, &quot;LAT&quot;: 25.89839, &quot;LON&quot;: -80.3861, &quot;POINT_X&quot;: 857976.91523, &quot;POINT_Y&quot;: 569232.788899, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386102695488248, 25.898391298588809,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 36.0, &quot;LAT&quot;: 25.91225, &quot;LON&quot;: -80.38102, &quot;POINT_X&quot;: 859624.27978, &quot;POINT_Y&quot;: 574279.14252, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.381019270224357, 25.912253744879781,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 37.0, &quot;LAT&quot;: 25.9261, &quot;LON&quot;: -80.37587, &quot;POINT_X&quot;: 861292.08529, &quot;POINT_Y&quot;: 579318.98129499994684, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.375872526628115, 25.926097772543049,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 38.0, &quot;LAT&quot;: 25.93694, &quot;LON&quot;: -80.36546, &quot;POINT_X&quot;: 864695.46633, &quot;POINT_Y&quot;: 583276.71807, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.365459368061551, 25.936941429344312,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 39.0, &quot;LAT&quot;: 25.94679, &quot;LON&quot;: -80.35353, &quot;POINT_X&quot;: 868599.333114, &quot;POINT_Y&quot;: 586874.00117, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.353526704181292, 25.946785811337499,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 3.0, &quot;LAT&quot;: 25.96747, &quot;LON&quot;: -80.22941, &quot;POINT_X&quot;: 909340.647907, &quot;POINT_Y&quot;: 594613.80268, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.229412646537796, 25.967472619242368,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 2.0, &quot;LAT&quot;: 25.95296, &quot;LON&quot;: -80.22874, &quot;POINT_X&quot;: 909591.263519, &quot;POINT_Y&quot;: 589341.53203, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.228744458286428, 25.95296384032746,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 1.0, &quot;LAT&quot;: 25.94039, &quot;LON&quot;: -80.22127, &quot;POINT_X&quot;: 912073.2695, &quot;POINT_Y&quot;: 584785.598843, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.221273891599992, 25.940389437368797,  ] } }\n\n]\n}\n&#39;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>self</td>
+                    <td class="code"><pre>&lt;json.decoder.JSONDecoder object at 0x7fe45c075f90&gt;</pre></td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          
+        </li>
+      
+        <li class="frame user">
+          <code>/usr/lib/python2.7/json/decoder.py</code> in <code>raw_decode</code>
+
+          
+            <div class="context" id="c140618861998024">
+              
+                <ol start="376" class="pre-context" id="pre140618861998024"><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre>        This can be used to decode a JSON document from a string that may</pre></li><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre>        have extraneous data at the end.</pre></li><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre></pre></li><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre>        &quot;&quot;&quot;</pre></li><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre>        try:</pre></li><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre>            obj, end = self.scan_once(s, idx)</pre></li><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre>        except StopIteration:</pre></li></ol>
+              
+              <ol start="383" class="context-line"><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre>            raise ValueError(&quot;No JSON object could be decoded&quot;)</pre> <span>...</span></li></ol>
+              
+                <ol start='384' class="post-context" id="post140618861998024"><li onclick="toggle('pre140618861998024', 'post140618861998024')"><pre>        return obj, end</pre></li></ol>
+              
+            </div>
+          
+
+          
+            <div class="commands">
+                
+                    <a href="#" onclick="return varToggle(this, '140618861998024')"><span>&#x25b6;</span> Local vars</a>
+                
+            </div>
+            <table class="vars" id="v140618861998024">
+              <thead>
+                <tr>
+                  <th>Variable</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                  <tr>
+                    <td>s</td>
+                    <td class="code"><pre>&#39;{\n&quot;type&quot;: &quot;FeatureCollection&quot;,\n                                                                                \n&quot;features&quot;: [\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 48.0, &quot;LAT&quot;: 25.98351, &quot;LON&quot;: -80.22985, &quot;POINT_X&quot;: 909162.005474, &quot;POINT_Y&quot;: 600442.28594, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.22985190259277, 25.983510415034079,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 49.0, &quot;LAT&quot;: 25.99639, &quot;LON&quot;: -80.22304, &quot;POINT_X&quot;: 911371.470511, &quot;POINT_Y&quot;: 605135.65241, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.223041618573788, 25.99638646397538,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Mainline&quot;, &quot;MMARKER&quot;: 50.0, &quot;LAT&quot;: 26.00825, &quot;LON&quot;: -80.21358, &quot;POINT_X&quot;: 914451.95351, &quot;POINT_Y&quot;: 609467.70115, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.213584580498321, 26.008253714141812,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 40.0, &quot;LAT&quot;: 25.95692, &quot;LON&quot;: -80.34115, &quot;POINT_X&quot;: 872648.9597, &quot;POINT_Y&quot;: 590578.48114299995359, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.341146828018609, 25.956922061662425,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 41.0, &quot;LAT&quot;: 25.96667, &quot;LON&quot;: -80.32924, &quot;POINT_X&quot;: 876544.535659, &quot;POINT_Y&quot;: 594141.329294, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.329235905294169, 25.966669714209836,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 42.0, &quot;LAT&quot;: 25.9706, &quot;LON&quot;: -80.31421, &quot;POINT_X&quot;: 881474.819212, &quot;POINT_Y&quot;: 595596.55956, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.314207235625048, 25.970603008372581,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 43.0, &quot;LAT&quot;: 25.97066, &quot;LON&quot;: -80.29825, &quot;POINT_X&quot;: 886717.08828, &quot;POINT_Y&quot;: 595644.1284, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.298250988501479, 25.970657400292037,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 44.0, &quot;LAT&quot;: 25.97116, &quot;LON&quot;: -80.28219, &quot;POINT_X&quot;: 891992.057073, &quot;POINT_Y&quot;: 595853.62965, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.282192540967088, 25.971155041576711,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 45.0, &quot;LAT&quot;: 25.97165, &quot;LON&quot;: -80.26613, &quot;POINT_X&quot;: 897267.24905, &quot;POINT_Y&quot;: 596061.16371, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.266133359917248, 25.971645482636426,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 46.0, &quot;LAT&quot;: 25.97213, &quot;LON&quot;: -80.25009, &quot;POINT_X&quot;: 902537.27322, &quot;POINT_Y&quot;: 596267.031222, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.250089849819545, 25.972129636120858,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 47.0, &quot;LAT&quot;: 25.97263, &quot;LON&quot;: -80.23403, &quot;POINT_X&quot;: 907811.784889, &quot;POINT_Y&quot;: 596477.9498, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.234032509238475, 25.972625831251491,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 1.0, &quot;LAT&quot;: 25.4594, &quot;LON&quot;: -80.46645, &quot;POINT_X&quot;: 832206.114625, &quot;POINT_Y&quot;: 409564.327791, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.466453256531253, 25.459395045745008,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 2.0, &quot;LAT&quot;: 25.46824, &quot;LON&quot;: -80.45365, &quot;POINT_X&quot;: 836417.56971, &quot;POINT_Y&quot;: 412796.10298, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.45364932346078, 25.468240154957055,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 3.0, &quot;LAT&quot;: 25.47671, &quot;LON&quot;: -80.4406, &quot;POINT_X&quot;: 840708.29066, &quot;POINT_Y&quot;: 415891.59919, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.440604993884023, 25.476708227226624,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 4.0, &quot;LAT&quot;: 25.48514, &quot;LON&quot;: -80.42744, &quot;POINT_X&quot;: 845038.34423299995251, &quot;POINT_Y&quot;: 418972.71352, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.427439805121182, 25.485135064077262,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 5.0, &quot;LAT&quot;: 25.49626, &quot;LON&quot;: -80.41754, &quot;POINT_X&quot;: 848286.961106, &quot;POINT_Y&quot;: 423029.867395, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.41753828808325, 25.496259223655844,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 6.0, &quot;LAT&quot;: 25.50976, &quot;LON&quot;: -80.4133, &quot;POINT_X&quot;: 849664.18003, &quot;POINT_Y&quot;: 427942.73137, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.41329740323944, 25.509759890255367,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 7.0, &quot;LAT&quot;: 25.52049, &quot;LON&quot;: -80.40242, &quot;POINT_X&quot;: 853233.293942, &quot;POINT_Y&quot;: 431856.812418, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.402422660829117, 25.520485389549012,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 8.0, &quot;LAT&quot;: 25.52891, &quot;LON&quot;: -80.38996, &quot;POINT_X&quot;: 857328.44741, &quot;POINT_Y&quot;: 434936.504934, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.389962381224876, 25.528907669955178,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 9.0, &quot;LAT&quot;: 25.53171, &quot;LON&quot;: -80.37421, &quot;POINT_X&quot;: 862517.475253, &quot;POINT_Y&quot;: 435979.261904, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.37421213035303, 25.531710333371588,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 10.0, &quot;LAT&quot;: 25.5416, &quot;LON&quot;: -80.36331, &quot;POINT_X&quot;: 866094.536975, &quot;POINT_Y&quot;: 439590.41913, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.36331225324389, 25.541599237874561,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 11.0, &quot;LAT&quot;: 25.5561, &quot;LON&quot;: -80.36264, &quot;POINT_X&quot;: 866289.939065, &quot;POINT_Y&quot;: 444863.0249, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.362642931164544, 25.556103538050603,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 12.0, &quot;LAT&quot;: 25.57068, &quot;LON&quot;: -80.36283, &quot;POINT_X&quot;: 866203.13804, &quot;POINT_Y&quot;: 450160.26575, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.36282910346047, 25.570679312115754,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 13.0, &quot;LAT&quot;: 25.5848, &quot;LON&quot;: -80.36701, &quot;POINT_X&quot;: 864799.66343, &quot;POINT_Y&quot;: 455286.7991, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.367012327910103, 25.584802720102182,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 14.0, &quot;LAT&quot;: 25.59735, &quot;LON&quot;: -80.3743, &quot;POINT_X&quot;: 862374.692702, &quot;POINT_Y&quot;: 459834.84175, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.374304194542347, 25.597347661408346,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 15.0, &quot;LAT&quot;: 25.61095, &quot;LON&quot;: -80.37819, &quot;POINT_X&quot;: 861070.93208, &quot;POINT_Y&quot;: 464773.30963299999712, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.378189724175527, 25.610952011577854,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 16.0, &quot;LAT&quot;: 25.62582, &quot;LON&quot;: -80.37893, &quot;POINT_X&quot;: 860800.50732, &quot;POINT_Y&quot;: 470175.076033, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.37893349929081, 25.625817650448347,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 17.0, &quot;LAT&quot;: 25.63827, &quot;LON&quot;: -80.38518, &quot;POINT_X&quot;: 858719.89166, &quot;POINT_Y&quot;: 474691.05243, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385184283660465, 25.638269374814641,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 18.0, &quot;LAT&quot;: 25.65244, &quot;LON&quot;: -80.38572, &quot;POINT_X&quot;: 858518.275906, &quot;POINT_Y&quot;: 479839.44888, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385723716073372, 25.6524369565482,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 19.0, &quot;LAT&quot;: 25.66676, &quot;LON&quot;: -80.38713, &quot;POINT_X&quot;: 858032.38795, &quot;POINT_Y&quot;: 485044.35311, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.387125466626159, 25.666763609226546,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 20.0, &quot;LAT&quot;: 25.68121, &quot;LON&quot;: -80.38878, &quot;POINT_X&quot;: 857462.612344, &quot;POINT_Y&quot;: 490292.44075, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.388781614498583, 25.681210105574252,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 21.0, &quot;LAT&quot;: 25.6951, &quot;LON&quot;: -80.38638, &quot;POINT_X&quot;: 858228.68216, &quot;POINT_Y&quot;: 495345.72, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386384382698111, 25.695103569922537,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 22.0, &quot;LAT&quot;: 25.70915, &quot;LON&quot;: -80.38324, &quot;POINT_X&quot;: 859241.51996499998495, &quot;POINT_Y&quot;: 500455.24726, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38323633147165, 25.70914854554352,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 23.0, &quot;LAT&quot;: 25.72512, &quot;LON&quot;: -80.3836, &quot;POINT_X&quot;: 859095.623808, &quot;POINT_Y&quot;: 506258.444756, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.383597137854608, 25.725116846265127,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 24.0, &quot;LAT&quot;: 25.73971, &quot;LON&quot;: -80.38439, &quot;POINT_X&quot;: 858808.40589, &quot;POINT_Y&quot;: 511560.70635, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.384394400237355, 25.739708698400371,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 25.0, &quot;LAT&quot;: 25.75284, &quot;LON&quot;: -80.38491, &quot;POINT_X&quot;: 858616.35919, &quot;POINT_Y&quot;: 516331.10043, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.384910212032651, 25.752835972461089,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 26.0, &quot;LAT&quot;: 25.76735, &quot;LON&quot;: -80.38541, &quot;POINT_X&quot;: 858426.973552, &quot;POINT_Y&quot;: 521604.13275, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38541089906893, 25.767346095316704,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 27.0, &quot;LAT&quot;: 25.78192, &quot;LON&quot;: -80.38574, &quot;POINT_X&quot;: 858295.455832, &quot;POINT_Y&quot;: 526899.0994, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38573550548935, 25.78191579613965,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 28.0, &quot;LAT&quot;: 25.79659, &quot;LON&quot;: -80.38578, &quot;POINT_X&quot;: 858255.35597, &quot;POINT_Y&quot;: 532233.68033, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.385781753459554, 25.796593285216478,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 29.0, &quot;LAT&quot;: 25.81119, &quot;LON&quot;: -80.3862, &quot;POINT_X&quot;: 858091.54645799996797, &quot;POINT_Y&quot;: 537539.70594799995888, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386204402758523, 25.811193769239114,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 30.0, &quot;LAT&quot;: 25.82579, &quot;LON&quot;: -80.3866, &quot;POINT_X&quot;: 857935.165613, &quot;POINT_Y&quot;: 542845.66927, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386604534754468, 25.825793958965232,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 31.0, &quot;LAT&quot;: 25.84038, &quot;LON&quot;: -80.38694, &quot;POINT_X&quot;: 857799.973298, &quot;POINT_Y&quot;: 548146.81786, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386940373335136, 25.840380601056555,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 32.0, &quot;LAT&quot;: 25.85497, &quot;LON&quot;: -80.38736, &quot;POINT_X&quot;: 857637.108384, &quot;POINT_Y&quot;: 553447.69913, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.38736040232331, 25.854966834944133,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 33.0, &quot;LAT&quot;: 25.86957, &quot;LON&quot;: -80.38782, &quot;POINT_X&quot;: 857462.39342, &quot;POINT_Y&quot;: 558753.369838, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.387816465201922, 25.869566368269847,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 34.0, &quot;LAT&quot;: 25.88415, &quot;LON&quot;: -80.38843, &quot;POINT_X&quot;: 857234.5817, &quot;POINT_Y&quot;: 564051.404788, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.388434198643154, 25.884145546816878,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 35.0, &quot;LAT&quot;: 25.89839, &quot;LON&quot;: -80.3861, &quot;POINT_X&quot;: 857976.91523, &quot;POINT_Y&quot;: 569232.788899, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.386102695488248, 25.898391298588809,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 36.0, &quot;LAT&quot;: 25.91225, &quot;LON&quot;: -80.38102, &quot;POINT_X&quot;: 859624.27978, &quot;POINT_Y&quot;: 574279.14252, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.381019270224357, 25.912253744879781,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 37.0, &quot;LAT&quot;: 25.9261, &quot;LON&quot;: -80.37587, &quot;POINT_X&quot;: 861292.08529, &quot;POINT_Y&quot;: 579318.98129499994684, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.375872526628115, 25.926097772543049,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 38.0, &quot;LAT&quot;: 25.93694, &quot;LON&quot;: -80.36546, &quot;POINT_X&quot;: 864695.46633, &quot;POINT_Y&quot;: 583276.71807, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.365459368061551, 25.936941429344312,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;HEFT&quot;, &quot;MMARKER&quot;: 39.0, &quot;LAT&quot;: 25.94679, &quot;LON&quot;: -80.35353, &quot;POINT_X&quot;: 868599.333114, &quot;POINT_Y&quot;: 586874.00117, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.353526704181292, 25.946785811337499,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 3.0, &quot;LAT&quot;: 25.96747, &quot;LON&quot;: -80.22941, &quot;POINT_X&quot;: 909340.647907, &quot;POINT_Y&quot;: 594613.80268, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.229412646537796, 25.967472619242368,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 2.0, &quot;LAT&quot;: 25.95296, &quot;LON&quot;: -80.22874, &quot;POINT_X&quot;: 909591.263519, &quot;POINT_Y&quot;: 589341.53203, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.228744458286428, 25.95296384032746,  ] } }\n,\n{ &quot;type&quot;: &quot;Feature&quot;, &quot;properties&quot;: { &quot;FACILITY&quot;: &quot;Golden Glades&quot;, &quot;MMARKER&quot;: 1.0, &quot;LAT&quot;: 25.94039, &quot;LON&quot;: -80.22127, &quot;POINT_X&quot;: 912073.2695, &quot;POINT_Y&quot;: 584785.598843, &quot;POINT_M&quot;: 1.0 }, &quot;geometry&quot;: { &quot;type&quot;: &quot;Point&quot;, &quot;coordinates&quot;: [ -80.221273891599992, 25.940389437368797,  ] } }\n\n]\n}\n&#39;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>self</td>
+                    <td class="code"><pre>&lt;json.decoder.JSONDecoder object at 0x7fe45c075f90&gt;</pre></td>
+                  </tr>
+                
+                  <tr>
+                    <td>idx</td>
+                    <td class="code"><pre>0</pre></td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          
+        </li>
+      
+    </ul>
+  </div>
+  
+  <form action="http://dpaste.com/" name="pasteform" id="pasteform" method="post">
+
+  <div id="pastebinTraceback" class="pastebin">
+    <input type="hidden" name="language" value="PythonConsole">
+    <input type="hidden" name="title" value="ValueError at /mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/">
+    <input type="hidden" name="source" value="Django Dpaste Agent">
+    <input type="hidden" name="poster" value="Django">
+    <textarea name="content" id="traceback_area" cols="140" rows="25">
+Environment:
+
+
+Request Method: GET
+Request URL: http://shpescape.com/mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/
+
+Django Version: 1.4.13
+Python Version: 2.7.3
+Installed Applications:
+(&#39;django.contrib.auth&#39;,
+ &#39;django.contrib.contenttypes&#39;,
+ &#39;django.contrib.sessions&#39;,
+ &#39;django.contrib.sites&#39;,
+ &#39;django.contrib.admin&#39;,
+ &#39;django.contrib.databrowse&#39;,
+ &#39;django.contrib.gis&#39;,
+ &#39;django.contrib.humanize&#39;,
+ &#39;django.contrib.webdesign&#39;,
+ &#39;shapeft&#39;,
+ &#39;gme&#39;,
+ &#39;converter&#39;,
+ &#39;shapes&#39;,
+ &#39;contact&#39;)
+Installed Middleware:
+(&#39;django.middleware.common.CommonMiddleware&#39;,
+ &#39;django.middleware.transaction.TransactionMiddleware&#39;,
+ &#39;django.contrib.sessions.middleware.SessionMiddleware&#39;,
+ &#39;django.contrib.auth.middleware.AuthenticationMiddleware&#39;)
+
+
+Traceback:
+File "/projects/shape-escape/django/core/handlers/base.py" in get_response
+  109.                         response = callback(request, *callback_args, **callback_kwargs)
+File "/projects/shape-escape/converter/views.py" in json_out
+  160.   js = json.loads(f)
+File "/usr/lib/python2.7/json/__init__.py" in loads
+  326.         return _default_decoder.decode(s)
+File "/usr/lib/python2.7/json/decoder.py" in decode
+  365.         obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+File "/usr/lib/python2.7/json/decoder.py" in raw_decode
+  383.             raise ValueError(&quot;No JSON object could be decoded&quot;)
+
+Exception Type: ValueError at /mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/
+Exception Value: No JSON object could be decoded
+</textarea>
+  <br><br>
+  <input type="submit" value="Share this traceback on a public Web site">
+  </div>
+</form>
+</div>
+
+
+
+<div id="requestinfo">
+  <h2>Request information</h2>
+
+
+  <h3 id="get-info">GET</h3>
+  
+    <p>No GET data</p>
+  
+
+  <h3 id="post-info">POST</h3>
+  
+    <p>No POST data</p>
+  
+  <h3 id="files-info">FILES</h3>
+  
+    <p>No FILES data</p>
+  
+
+
+  <h3 id="cookie-info">COOKIES</h3>
+  
+    <p>No cookie data</p>
+  
+
+  <h3 id="meta-info">META</h3>
+  <table class="req">
+    <thead>
+      <tr>
+        <th>Variable</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td>AUTH_TYPE</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CONTENT_LENGTH</td>
+          <td class="code"><pre>0</pre></td>
+        </tr>
+      
+        <tr>
+          <td>REMOTE_USER</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>HTTP_CONNECTION</td>
+          <td class="code"><pre>&#39;keep-alive&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SERVER_PORT</td>
+          <td class="code"><pre>80</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SERVER_NAME</td>
+          <td class="code"><pre>&#39;shpescape.com&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>GATEWAY_INTERFACE</td>
+          <td class="code"><pre>&#39;CGI/1.1&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>REMOTE_ADDR</td>
+          <td class="code"><pre>&#39;96.43.128.42&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SERVER_SOFTWARE</td>
+          <td class="code"><pre>&#39;mod_python&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>REMOTE_IDENT</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SCRIPT_NAME</td>
+          <td class="code"><pre>&#39;&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>REQUEST_METHOD</td>
+          <td class="code"><pre>&#39;GET&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>HTTP_HOST</td>
+          <td class="code"><pre>&#39;shpescape.com&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>PATH_INFO</td>
+          <td class="code"><pre>u&#39;/mix/uploads/02408b66b49ad0a3a7feac9dd5d55d84.json/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CONTENT_TYPE</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SERVER_PROTOCOL</td>
+          <td class="code"><pre>&#39;HTTP/1.1&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>QUERY_STRING</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>REMOTE_HOST</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>PATH_TRANSLATED</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+  <h3 id="settings-info">Settings</h3>
+  <h4>Using settings module <code>settings</code></h4>
+  <table class="req">
+    <thead>
+      <tr>
+        <th>Setting</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td>TMP_DIR</td>
+          <td class="code"><pre>&#39;/projects/tmp/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>USE_L10N</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>USE_THOUSAND_SEPARATOR</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CSRF_COOKIE_SECURE</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LANGUAGE_CODE</td>
+          <td class="code"><pre>&#39;en-us&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>ROOT_URLCONF</td>
+          <td class="code"><pre>&#39;urls&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>MANAGERS</td>
+          <td class="code"><pre>((&#39;Admin1&#39;, &#39;your_email_address&#39;),)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEFAULT_CHARSET</td>
+          <td class="code"><pre>&#39;utf-8&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>STATIC_ROOT</td>
+          <td class="code"><pre>&#39;&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>ALLOWED_HOSTS</td>
+          <td class="code"><pre>[&#39;*&#39;]</pre></td>
+        </tr>
+      
+        <tr>
+          <td>MESSAGE_STORAGE</td>
+          <td class="code"><pre>&#39;django.contrib.messages.storage.fallback.FallbackStorage&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>EMAIL_SUBJECT_PREFIX</td>
+          <td class="code"><pre>&#39;[Django] &#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SEND_BROKEN_LINK_EMAILS</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>URL_VALIDATOR_USER_AGENT</td>
+          <td class="code"><pre>&#39;Django/1.4.13 (https://www.djangoproject.com)&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FT_API_KEY</td>
+          <td class="code"><pre>u&#39;********************&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>STATICFILES_FINDERS</td>
+          <td class="code"><pre>(&#39;django.contrib.staticfiles.finders.FileSystemFinder&#39;,
+ &#39;django.contrib.staticfiles.finders.AppDirectoriesFinder&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_COOKIE_DOMAIN</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_COOKIE_NAME</td>
+          <td class="code"><pre>&#39;sessionid&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>ADMIN_FOR</td>
+          <td class="code"><pre>()</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TIME_INPUT_FORMATS</td>
+          <td class="code"><pre>(&#39;%H:%M:%S&#39;, &#39;%H:%M&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DATABASES</td>
+          <td class="code"><pre>{&#39;default&#39;: {&#39;ENGINE&#39;: &#39;django.contrib.gis.db.backends.postgis&#39;,
+             &#39;HOST&#39;: &#39;&#39;,
+             &#39;NAME&#39;: &#39;shapeft&#39;,
+             &#39;OPTIONS&#39;: {},
+             &#39;PASSWORD&#39;: u&#39;********************&#39;,
+             &#39;PORT&#39;: &#39;&#39;,
+             &#39;TEST_CHARSET&#39;: None,
+             &#39;TEST_COLLATION&#39;: None,
+             &#39;TEST_MIRROR&#39;: None,
+             &#39;TEST_NAME&#39;: None,
+             &#39;TIME_ZONE&#39;: &#39;America/Vancouver&#39;,
+             &#39;USER&#39;: &#39;postgres&#39;}}</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FILE_UPLOAD_PERMISSIONS</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FILE_UPLOAD_HANDLERS</td>
+          <td class="code"><pre>(&#39;django.core.files.uploadhandler.MemoryFileUploadHandler&#39;,
+ &#39;django.core.files.uploadhandler.TemporaryFileUploadHandler&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SHP_UPLOAD_DIR</td>
+          <td class="code"><pre>&#39;/projects/tmp/upload/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEFAULT_CONTENT_TYPE</td>
+          <td class="code"><pre>&#39;text/html&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>APPEND_SLASH</td>
+          <td class="code"><pre>True</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LOCALE_PATHS</td>
+          <td class="code"><pre>()</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DATABASE_ROUTERS</td>
+          <td class="code"><pre>[]</pre></td>
+        </tr>
+      
+        <tr>
+          <td>MEDIA_ROOT</td>
+          <td class="code"><pre>&#39;/projects/shape-escape/media/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>YEAR_MONTH_FORMAT</td>
+          <td class="code"><pre>&#39;F Y&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>STATICFILES_STORAGE</td>
+          <td class="code"><pre>&#39;django.contrib.staticfiles.storage.StaticFilesStorage&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CACHES</td>
+          <td class="code"><pre>{&#39;default&#39;: {&#39;BACKEND&#39;: &#39;django.core.cache.backends.locmem.LocMemCache&#39;,
+             &#39;LOCATION&#39;: &#39;&#39;}}</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SERVER_EMAIL</td>
+          <td class="code"><pre>&#39;root@localhost&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_COOKIE_PATH</td>
+          <td class="code"><pre>&#39;/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>USE_X_FORWARDED_HOST</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CONTACT_EMAILS</td>
+          <td class="code"><pre>[&#39;jlivni@google.com&#39;]</pre></td>
+        </tr>
+      
+        <tr>
+          <td>MIDDLEWARE_CLASSES</td>
+          <td class="code"><pre>(&#39;django.middleware.common.CommonMiddleware&#39;,
+ &#39;django.middleware.transaction.TransactionMiddleware&#39;,
+ &#39;django.contrib.sessions.middleware.SessionMiddleware&#39;,
+ &#39;django.contrib.auth.middleware.AuthenticationMiddleware&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>USE_I18N</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>THOUSAND_SEPARATOR</td>
+          <td class="code"><pre>&#39;,&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SECRET_KEY</td>
+          <td class="code"><pre>u&#39;********************&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LANGUAGE_COOKIE_NAME</td>
+          <td class="code"><pre>&#39;django_language&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>EMAIL_MANAGERS</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEFAULT_INDEX_TABLESPACE</td>
+          <td class="code"><pre>&#39;&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TRANSACTIONS_MANAGED</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LOGGING_CONFIG</td>
+          <td class="code"><pre>&#39;django.utils.log.dictConfig&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TEMPLATE_LOADERS</td>
+          <td class="code"><pre>(&#39;django.template.loaders.filesystem.Loader&#39;,
+ &#39;django.template.loaders.app_directories.Loader&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FIRST_DAY_OF_WEEK</td>
+          <td class="code"><pre>0</pre></td>
+        </tr>
+      
+        <tr>
+          <td>WSGI_APPLICATION</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TEMPLATE_DEBUG</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>X_FRAME_OPTIONS</td>
+          <td class="code"><pre>&#39;SAMEORIGIN&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>AUTHENTICATION_BACKENDS</td>
+          <td class="code"><pre>(&#39;django.contrib.auth.backends.ModelBackend&#39;,)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FORCE_SCRIPT_NAME</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CACHE_BACKEND</td>
+          <td class="code"><pre>&#39;locmem://&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SIGNING_BACKEND</td>
+          <td class="code"><pre>&#39;django.core.signing.TimestampSigner&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_COOKIE_SECURE</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CSRF_COOKIE_DOMAIN</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FILE_CHARSET</td>
+          <td class="code"><pre>&#39;utf-8&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEBUG</td>
+          <td class="code"><pre>True</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_FILE_PATH</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEFAULT_FILE_STORAGE</td>
+          <td class="code"><pre>&#39;django.core.files.storage.FileSystemStorage&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>INSTALLED_APPS</td>
+          <td class="code"><pre>(&#39;django.contrib.auth&#39;,
+ &#39;django.contrib.contenttypes&#39;,
+ &#39;django.contrib.sessions&#39;,
+ &#39;django.contrib.sites&#39;,
+ &#39;django.contrib.admin&#39;,
+ &#39;django.contrib.databrowse&#39;,
+ &#39;django.contrib.gis&#39;,
+ &#39;django.contrib.humanize&#39;,
+ &#39;django.contrib.webdesign&#39;,
+ &#39;shapeft&#39;,
+ &#39;gme&#39;,
+ &#39;converter&#39;,
+ &#39;shapes&#39;,
+ &#39;contact&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LANGUAGES</td>
+          <td class="code"><pre>((&#39;ar&#39;, &#39;Arabic&#39;),
+ (&#39;az&#39;, &#39;Azerbaijani&#39;),
+ (&#39;bg&#39;, &#39;Bulgarian&#39;),
+ (&#39;bn&#39;, &#39;Bengali&#39;),
+ (&#39;bs&#39;, &#39;Bosnian&#39;),
+ (&#39;ca&#39;, &#39;Catalan&#39;),
+ (&#39;cs&#39;, &#39;Czech&#39;),
+ (&#39;cy&#39;, &#39;Welsh&#39;),
+ (&#39;da&#39;, &#39;Danish&#39;),
+ (&#39;de&#39;, &#39;German&#39;),
+ (&#39;el&#39;, &#39;Greek&#39;),
+ (&#39;en&#39;, &#39;English&#39;),
+ (&#39;en-gb&#39;, &#39;British English&#39;),
+ (&#39;eo&#39;, &#39;Esperanto&#39;),
+ (&#39;es&#39;, &#39;Spanish&#39;),
+ (&#39;es-ar&#39;, &#39;Argentinian Spanish&#39;),
+ (&#39;es-mx&#39;, &#39;Mexican Spanish&#39;),
+ (&#39;es-ni&#39;, &#39;Nicaraguan Spanish&#39;),
+ (&#39;et&#39;, &#39;Estonian&#39;),
+ (&#39;eu&#39;, &#39;Basque&#39;),
+ (&#39;fa&#39;, &#39;Persian&#39;),
+ (&#39;fi&#39;, &#39;Finnish&#39;),
+ (&#39;fr&#39;, &#39;French&#39;),
+ (&#39;fy-nl&#39;, &#39;Frisian&#39;),
+ (&#39;ga&#39;, &#39;Irish&#39;),
+ (&#39;gl&#39;, &#39;Galician&#39;),
+ (&#39;he&#39;, &#39;Hebrew&#39;),
+ (&#39;hi&#39;, &#39;Hindi&#39;),
+ (&#39;hr&#39;, &#39;Croatian&#39;),
+ (&#39;hu&#39;, &#39;Hungarian&#39;),
+ (&#39;id&#39;, &#39;Indonesian&#39;),
+ (&#39;is&#39;, &#39;Icelandic&#39;),
+ (&#39;it&#39;, &#39;Italian&#39;),
+ (&#39;ja&#39;, &#39;Japanese&#39;),
+ (&#39;ka&#39;, &#39;Georgian&#39;),
+ (&#39;kk&#39;, &#39;Kazakh&#39;),
+ (&#39;km&#39;, &#39;Khmer&#39;),
+ (&#39;kn&#39;, &#39;Kannada&#39;),
+ (&#39;ko&#39;, &#39;Korean&#39;),
+ (&#39;lt&#39;, &#39;Lithuanian&#39;),
+ (&#39;lv&#39;, &#39;Latvian&#39;),
+ (&#39;mk&#39;, &#39;Macedonian&#39;),
+ (&#39;ml&#39;, &#39;Malayalam&#39;),
+ (&#39;mn&#39;, &#39;Mongolian&#39;),
+ (&#39;nb&#39;, &#39;Norwegian Bokmal&#39;),
+ (&#39;ne&#39;, &#39;Nepali&#39;),
+ (&#39;nl&#39;, &#39;Dutch&#39;),
+ (&#39;nn&#39;, &#39;Norwegian Nynorsk&#39;),
+ (&#39;pa&#39;, &#39;Punjabi&#39;),
+ (&#39;pl&#39;, &#39;Polish&#39;),
+ (&#39;pt&#39;, &#39;Portuguese&#39;),
+ (&#39;pt-br&#39;, &#39;Brazilian Portuguese&#39;),
+ (&#39;ro&#39;, &#39;Romanian&#39;),
+ (&#39;ru&#39;, &#39;Russian&#39;),
+ (&#39;sk&#39;, &#39;Slovak&#39;),
+ (&#39;sl&#39;, &#39;Slovenian&#39;),
+ (&#39;sq&#39;, &#39;Albanian&#39;),
+ (&#39;sr&#39;, &#39;Serbian&#39;),
+ (&#39;sr-latn&#39;, &#39;Serbian Latin&#39;),
+ (&#39;sv&#39;, &#39;Swedish&#39;),
+ (&#39;sw&#39;, &#39;Swahili&#39;),
+ (&#39;ta&#39;, &#39;Tamil&#39;),
+ (&#39;te&#39;, &#39;Telugu&#39;),
+ (&#39;th&#39;, &#39;Thai&#39;),
+ (&#39;tr&#39;, &#39;Turkish&#39;),
+ (&#39;tt&#39;, &#39;Tatar&#39;),
+ (&#39;uk&#39;, &#39;Ukrainian&#39;),
+ (&#39;ur&#39;, &#39;Urdu&#39;),
+ (&#39;vi&#39;, &#39;Vietnamese&#39;),
+ (&#39;zh-cn&#39;, &#39;Simplified Chinese&#39;),
+ (&#39;zh-tw&#39;, &#39;Traditional Chinese&#39;))</pre></td>
+        </tr>
+      
+        <tr>
+          <td>COMMENTS_ALLOW_PROFANITIES</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DATABASE_NAME</td>
+          <td class="code"><pre>&#39;shapeft&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>PREPEND_WWW</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SECURE_PROXY_SSL_HEADER</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_COOKIE_HTTPONLY</td>
+          <td class="code"><pre>True</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEBUG_PROPAGATE_EXCEPTIONS</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>MONTH_DAY_FORMAT</td>
+          <td class="code"><pre>&#39;F j&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LOGIN_URL</td>
+          <td class="code"><pre>&#39;/accounts/login/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_EXPIRE_AT_BROWSER_CLOSE</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TIME_FORMAT</td>
+          <td class="code"><pre>&#39;P&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DATE_INPUT_FORMATS</td>
+          <td class="code"><pre>(&#39;%Y-%m-%d&#39;,
+ &#39;%m/%d/%Y&#39;,
+ &#39;%m/%d/%y&#39;,
+ &#39;%b %d %Y&#39;,
+ &#39;%b %d, %Y&#39;,
+ &#39;%d %b %Y&#39;,
+ &#39;%d %b, %Y&#39;,
+ &#39;%B %d %Y&#39;,
+ &#39;%B %d, %Y&#39;,
+ &#39;%d %B %Y&#39;,
+ &#39;%d %B, %Y&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CSRF_COOKIE_NAME</td>
+          <td class="code"><pre>&#39;csrftoken&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>EMAIL_HOST_PASSWORD</td>
+          <td class="code"><pre>u&#39;********************&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>PASSWORD_RESET_TIMEOUT_DAYS</td>
+          <td class="code"><pre>u&#39;********************&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CACHE_MIDDLEWARE_ALIAS</td>
+          <td class="code"><pre>&#39;default&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_SAVE_EVERY_REQUEST</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>ADMIN_MEDIA_PREFIX</td>
+          <td class="code"><pre>&#39;/admin_media/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>NUMBER_GROUPING</td>
+          <td class="code"><pre>0</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_ENGINE</td>
+          <td class="code"><pre>&#39;django.contrib.sessions.backends.db&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CSRF_FAILURE_VIEW</td>
+          <td class="code"><pre>&#39;django.views.csrf.csrf_failure&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CSRF_COOKIE_PATH</td>
+          <td class="code"><pre>&#39;/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LOGIN_REDIRECT_URL</td>
+          <td class="code"><pre>&#39;/accounts/profile/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LOGGING</td>
+          <td class="code"><pre>{&#39;disable_existing_loggers&#39;: False,
+ &#39;filters&#39;: {&#39;require_debug_false&#39;: {&#39;()&#39;: &#39;django.utils.log.RequireDebugFalse&#39;}},
+ &#39;handlers&#39;: {&#39;mail_admins&#39;: {&#39;class&#39;: &#39;django.utils.log.AdminEmailHandler&#39;,
+                              &#39;filters&#39;: [&#39;require_debug_false&#39;],
+                              &#39;level&#39;: &#39;ERROR&#39;}},
+ &#39;loggers&#39;: {&#39;django.request&#39;: {&#39;handlers&#39;: [&#39;mail_admins&#39;],
+                                &#39;level&#39;: &#39;ERROR&#39;,
+                                &#39;propagate&#39;: True}},
+ &#39;version&#39;: 1}</pre></td>
+        </tr>
+      
+        <tr>
+          <td>IGNORABLE_404_URLS</td>
+          <td class="code"><pre>()</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FT_CLIENT_SECRET</td>
+          <td class="code"><pre>u&#39;********************&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TEMPLATE_STRING_IF_INVALID</td>
+          <td class="code"><pre>&#39;&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LOGOUT_URL</td>
+          <td class="code"><pre>&#39;/accounts/logout/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>EMAIL_USE_TLS</td>
+          <td class="code"><pre>True</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FT_CLIENT_ID</td>
+          <td class="code"><pre>&#39;233392293227.apps.googleusercontent.com&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FIXTURE_DIRS</td>
+          <td class="code"><pre>()</pre></td>
+        </tr>
+      
+        <tr>
+          <td>EMAIL_HOST</td>
+          <td class="code"><pre>&#39;smtp.gmail.com&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DATE_FORMAT</td>
+          <td class="code"><pre>&#39;N j, Y&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CONVERT_UPLOAD_DIR</td>
+          <td class="code"><pre>&#39;/projects/tmp/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEFAULT_EXCEPTION_REPORTER_FILTER</td>
+          <td class="code"><pre>&#39;django.views.debug.SafeExceptionReporterFilter&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>ADMINS</td>
+          <td class="code"><pre>((&#39;Admin1&#39;, &#39;shapeft@gmail.com&#39;),)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FORMAT_MODULE_PATH</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEFAULT_FROM_EMAIL</td>
+          <td class="code"><pre>&#39;shapeft@gmail.com&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>STATICFILES_DIRS</td>
+          <td class="code"><pre>()</pre></td>
+        </tr>
+      
+        <tr>
+          <td>MEDIA_URL</td>
+          <td class="code"><pre>&#39;&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DATETIME_FORMAT</td>
+          <td class="code"><pre>&#39;N j, Y, P&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TEMPLATE_DIRS</td>
+          <td class="code"><pre>(&#39;/projects/shape-escape/templates&#39;,)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>STATIC_DATA</td>
+          <td class="code"><pre>&#39;/projects/shape-escape/static/&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SITE_ID</td>
+          <td class="code"><pre>1</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DISALLOWED_USER_AGENTS</td>
+          <td class="code"><pre>()</pre></td>
+        </tr>
+      
+        <tr>
+          <td>ALLOWED_INCLUDE_ROOTS</td>
+          <td class="code"><pre>()</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DECIMAL_SEPARATOR</td>
+          <td class="code"><pre>&#39;.&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SHORT_DATE_FORMAT</td>
+          <td class="code"><pre>&#39;m/d/Y&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TEST_RUNNER</td>
+          <td class="code"><pre>&#39;django.test.simple.DjangoTestSuiteRunner&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CACHE_MIDDLEWARE_KEY_PREFIX</td>
+          <td class="code"><pre>u&#39;********************&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TIME_ZONE</td>
+          <td class="code"><pre>&#39;America/Vancouver&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FILE_UPLOAD_MAX_MEMORY_SIZE</td>
+          <td class="code"><pre>2621440</pre></td>
+        </tr>
+      
+        <tr>
+          <td>EMAIL_BACKEND</td>
+          <td class="code"><pre>&#39;django.core.mail.backends.smtp.EmailBackend&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DEFAULT_TABLESPACE</td>
+          <td class="code"><pre>&#39;&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>TEMPLATE_CONTEXT_PROCESSORS</td>
+          <td class="code"><pre>(&#39;django.contrib.auth.context_processors.auth&#39;,
+ &#39;django.core.context_processors.debug&#39;,
+ &#39;django.core.context_processors.i18n&#39;,
+ &#39;django.core.context_processors.media&#39;,
+ &#39;django.core.context_processors.static&#39;,
+ &#39;django.core.context_processors.tz&#39;,
+ &#39;django.contrib.messages.context_processors.messages&#39;,
+ &#39;django.core.context_processors.request&#39;,
+ &#39;global_context.total_uploaded&#39;,
+ &#39;global_context.in_queue&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SESSION_COOKIE_AGE</td>
+          <td class="code"><pre>1209600</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SETTINGS_MODULE</td>
+          <td class="code"><pre>&#39;settings&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>USE_ETAGS</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>LANGUAGES_BIDI</td>
+          <td class="code"><pre>(&#39;he&#39;, &#39;ar&#39;, &#39;fa&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>FILE_UPLOAD_TEMP_DIR</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>INTERNAL_IPS</td>
+          <td class="code"><pre>()</pre></td>
+        </tr>
+      
+        <tr>
+          <td>STATIC_URL</td>
+          <td class="code"><pre>None</pre></td>
+        </tr>
+      
+        <tr>
+          <td>EMAIL_PORT</td>
+          <td class="code"><pre>587</pre></td>
+        </tr>
+      
+        <tr>
+          <td>USE_TZ</td>
+          <td class="code"><pre>False</pre></td>
+        </tr>
+      
+        <tr>
+          <td>SHORT_DATETIME_FORMAT</td>
+          <td class="code"><pre>&#39;m/d/Y P&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>PASSWORD_HASHERS</td>
+          <td class="code"><pre>u&#39;********************&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>ABSOLUTE_URL_OVERRIDES</td>
+          <td class="code"><pre>{}</pre></td>
+        </tr>
+      
+        <tr>
+          <td>CACHE_MIDDLEWARE_SECONDS</td>
+          <td class="code"><pre>600</pre></td>
+        </tr>
+      
+        <tr>
+          <td>DATETIME_INPUT_FORMATS</td>
+          <td class="code"><pre>(&#39;%Y-%m-%d %H:%M:%S&#39;,
+ &#39;%Y-%m-%d %H:%M:%S.%f&#39;,
+ &#39;%Y-%m-%d %H:%M&#39;,
+ &#39;%Y-%m-%d&#39;,
+ &#39;%m/%d/%Y %H:%M:%S&#39;,
+ &#39;%m/%d/%Y %H:%M:%S.%f&#39;,
+ &#39;%m/%d/%Y %H:%M&#39;,
+ &#39;%m/%d/%Y&#39;,
+ &#39;%m/%d/%y %H:%M:%S&#39;,
+ &#39;%m/%d/%y %H:%M:%S.%f&#39;,
+ &#39;%m/%d/%y %H:%M&#39;,
+ &#39;%m/%d/%y&#39;)</pre></td>
+        </tr>
+      
+        <tr>
+          <td>EMAIL_HOST_USER</td>
+          <td class="code"><pre>&#39;shapeft@gmail.com&#39;</pre></td>
+        </tr>
+      
+        <tr>
+          <td>PROFANITIES_LIST</td>
+          <td class="code"><pre>u&#39;********************&#39;</pre></td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+</div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in your
+      Django settings file. Change that to <code>False</code>, and Django will
+      display a standard 500 page.
+    </p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,785 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.18841747251173, 
+          25.947579067645684
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "SHOP 3A", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.18841747, 
+        "ZIPCODE": 33179, 
+        "PHONE": "305-652-0764", 
+        "POINT_X": 922854.85902, 
+        "POINT_Y": 587464.40778992, 
+        "ADDRESS": "18701 NE 6TH AVE", 
+        "OPERHR": "M-F 6AM-6PM", 
+        "LAT": 25.94757907, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 1
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.15496954206495, 
+          25.919999556474664
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "NORTH MIAMI", 
+        "NAME": "STATION 6", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.15496954, 
+        "ZIPCODE": 33160, 
+        "PHONE": "305-947-4429", 
+        "POINT_X": 933911.08723259, 
+        "POINT_Y": 577509.42671567, 
+        "ADDRESS": "15665 BISCAYNE BLVD", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.91999956, 
+        "FUELTYPE": "UNL", 
+        "ID": 6
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.34007978911163, 
+          25.826726456423916
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "SHOP 3", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.34007979, 
+        "ZIPCODE": 33178, 
+        "PHONE": "305-591-9515", 
+        "POINT_X": 873237.58587642, 
+        "POINT_Y": 543258.68222518, 
+        "ADDRESS": "8801 NW 58TH ST", 
+        "OPERHR": "M-F 6AM-11PM", 
+        "LAT": 25.82672646, 
+        "FUELTYPE": "DSL", 
+        "ID": 7
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.31171573172793, 
+          25.808516409165687
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "PUBLIC WORKS T & T", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.31171573, 
+        "ZIPCODE": 33166, 
+        "PHONE": "305-592-3582", 
+        "POINT_X": 882602.42311784, 
+        "POINT_Y": 536687.83217792, 
+        "ADDRESS": "7100 NW 36TH ST", 
+        "OPERHR": "M-F 9AM-2PM", 
+        "LAT": 25.80851641, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 9
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.2866578340412, 
+          25.890304611995635
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI LAKES", 
+        "NAME": "PARKS, AMELIA EARHART", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.28665783, 
+        "ZIPCODE": 33014, 
+        "PHONE": "305-558-2016", 
+        "POINT_X": 890684.99881617, 
+        "POINT_Y": 566458.93208443, 
+        "ADDRESS": "200 W 74TH PL", 
+        "OPERHR": "M-F 7AM-3PM", 
+        "LAT": 25.89030461, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 10
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.26816797787488, 
+          25.793680517543862
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "AVIATION 1", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.26816798, 
+        "ZIPCODE": 33122, 
+        "PHONE": "305-376-0603", 
+        "POINT_X": 896959.46822259, 
+        "POINT_Y": 531372.82213868, 
+        "ADDRESS": "4300 NW 20TH ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.79368052, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 11
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.24524656092245, 
+          25.849240982544103
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "STATION 2", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.24524656, 
+        "ZIPCODE": 33147, 
+        "PHONE": "305-691-3134", 
+        "POINT_X": 904385.63545684, 
+        "POINT_Y": 551609.75640226, 
+        "ADDRESS": "2950 NW 83RD ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.84924098, 
+        "FUELTYPE": "UNL", 
+        "ID": 12
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.2076604572304, 
+          25.801018198846066
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "SHOP 1", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.20766046, 
+        "ZIPCODE": 33127, 
+        "PHONE": "305-638-6071", 
+        "POINT_X": 916852.81393451, 
+        "POINT_Y": 534155.06362142, 
+        "ADDRESS": "703 NW 25TH ST", 
+        "OPERHR": "M-F 6AM-6PM", 
+        "LAT": 25.8010182, 
+        "FUELTYPE": "UNL", 
+        "ID": 13
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.19806953148358, 
+          25.775128385557164
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "DOWNTOWN MOTOR POOL", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.19806953, 
+        "ZIPCODE": 33128, 
+        "PHONE": "305-375-4053", 
+        "POINT_X": 920065.73631442, 
+        "POINT_Y": 524764.07518559, 
+        "ADDRESS": "201 NW 1ST ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.77512839, 
+        "FUELTYPE": "UNL", 
+        "ID": 14
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.16878178676757, 
+          25.774887547042248
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "SEAPORT", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.16878179, 
+        "ZIPCODE": 33132, 
+        "PHONE": "305-347-4871", 
+        "POINT_X": 929704.70817817, 
+        "POINT_Y": 524736.27438817, 
+        "ADDRESS": "1580 N CRUISE BLVD.", 
+        "OPERHR": "M-F 7AM-4PM", 
+        "LAT": 25.77488755, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 15
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.33548800192995, 
+          25.711342685549145
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "SHOP 2", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.335488, 
+        "ZIPCODE": 33173, 
+        "PHONE": "305-273-4127", 
+        "POINT_X": 874959.49089717, 
+        "POINT_Y": 501328.98327635, 
+        "ADDRESS": "6100 SW 87TH AVE", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.71134269, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 16
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.3693443755801, 
+          25.695214531967224
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "SHOP 3B", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.36934438, 
+        "ZIPCODE": 33173, 
+        "PHONE": "305-279-5050", 
+        "POINT_X": 863839.85992125, 
+        "POINT_Y": 495412.46886268, 
+        "ADDRESS": "8500 SW 107TH AVE", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.69521453, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 17
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.38102225560377, 
+          25.69613175025748
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "DORAL", 
+        "NAME": "STATION 5", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.38102225, 
+        "ZIPCODE": 33178, 
+        "PHONE": "305-271-5342", 
+        "POINT_X": 859992.709151, 
+        "POINT_Y": 495727.65130317, 
+        "ADDRESS": "7707 NW 117TH AVE", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.69613175, 
+        "FUELTYPE": "UNL", 
+        "ID": 18
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.36680408370695, 
+          25.569907193437484
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "CUTLER BAY", 
+        "NAME": "SOUTH DADE GOVERNMENT CENTER", 
+        "ZONE": "C", 
+        "OPEN": "Y", 
+        "LON": -80.36680408, 
+        "ZIPCODE": 33189, 
+        "PHONE": "305-251-3125", 
+        "POINT_X": 864894.13373134, 
+        "POINT_Y": 449873.37030851, 
+        "ADDRESS": "10740 SW 211TH ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.56990719, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 19
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.39421826549373, 
+          25.598611457834213
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "PARKS, LARRY & PENNY THOMPSON", 
+        "ZONE": "C", 
+        "OPEN": "Y", 
+        "LON": -80.39421826, 
+        "ZIPCODE": 33177, 
+        "PHONE": "305-233-8233", 
+        "POINT_X": 855809.43799, 
+        "POINT_Y": 460263.69237559, 
+        "ADDRESS": "12451 SW 184TH ST", 
+        "OPERHR": "M-F 7AM-3PM", 
+        "LAT": 25.59861146, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 21
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.29795089729927, 
+          25.91046286600141
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI LAKES", 
+        "NAME": "STATION 1", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.2979509, 
+        "ZIPCODE": 33014, 
+        "PHONE": "305-557-9844", 
+        "POINT_X": 886932.95809192, 
+        "POINT_Y": 573765.77770693, 
+        "ADDRESS": "5975 MIAMI LAKES DR", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.91046287, 
+        "FUELTYPE": "UNL", 
+        "ID": 24
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.21145265366246, 
+          25.784250753687708
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "WASD DISTRIBUTION", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.21145265, 
+        "ZIPCODE": 33136, 
+        "PHONE": "305-547-7013", 
+        "POINT_X": 915641.59883725, 
+        "POINT_Y": 528053.16309559, 
+        "ADDRESS": "1001 NW 11TH ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.78425075, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 25
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.28789209312069, 
+          25.82905042637908
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "HIALEAH", 
+        "NAME": "WASD HIALEAH", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.28789209, 
+        "ZIPCODE": 33010, 
+        "PHONE": "305-882-5758", 
+        "POINT_X": 890399.90883517, 
+        "POINT_Y": 544192.91198401, 
+        "ADDRESS": "800 W 3RD AVE", 
+        "OPERHR": "M-F 7AM-4PM", 
+        "LAT": 25.82905043, 
+        "FUELTYPE": "UNL", 
+        "ID": 26
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.15304458491114, 
+          25.91952987166392
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "NORTH MIAMI", 
+        "NAME": "WASD INTERAMA", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.15304458, 
+        "ZIPCODE": 33160, 
+        "PHONE": "305-940-6313", 
+        "POINT_X": 934544.91339275, 
+        "POINT_Y": 577342.79155026, 
+        "ADDRESS": "2575 NE 151ST ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.91952987, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 27
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.21129956531365, 
+          25.810428073390618
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "WASD 36TH STREET", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.21129957, 
+        "ZIPCODE": 33127, 
+        "PHONE": "305-638-5632", 
+        "POINT_X": 915634.9738505, 
+        "POINT_Y": 537568.05515501, 
+        "ADDRESS": "3625 NW 10TH AVE", 
+        "OPERHR": "M-F 7AM-5PM", 
+        "LAT": 25.81042807, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 29
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.260661496645, 
+          25.72440503130143
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI", 
+        "NAME": "WASD MAIN", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.2606615, 
+        "ZIPCODE": 33146, 
+        "PHONE": "305-665-7471", 
+        "POINT_X": 899570.6004675, 
+        "POINT_Y": 506207.58277109, 
+        "ADDRESS": "3575 SW 42ND AVE", 
+        "OPERHR": "M-F 7AM-5PM", 
+        "LAT": 25.72440503, 
+        "FUELTYPE": "UNL", 
+        "ID": 30
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.15353772482034, 
+          25.746103942658188
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "VIRGINIA KEY", 
+        "NAME": "WASD VIRGINIA KEY", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.15353772, 
+        "ZIPCODE": 33149, 
+        "PHONE": "305-365-5601", 
+        "POINT_X": 934788.64256409, 
+        "POINT_Y": 514306.28343718, 
+        "ADDRESS": "3989 RICKENBACKER CSWY", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.74610394, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 31
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.33425534997849, 
+          25.548663061712457
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "WASD BLACK POINT", 
+        "ZONE": "C", 
+        "OPEN": "Y", 
+        "LON": -80.33425535, 
+        "ZIPCODE": 33190, 
+        "PHONE": "305-257-2778", 
+        "POINT_X": 875662.54428109, 
+        "POINT_Y": 442204.70815243, 
+        "ADDRESS": "8950 SW 232ND ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.54866306, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 32
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.3812245680054, 
+          25.722039299640898
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "WASD WESTWOOD L", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.38122457, 
+        "ZIPCODE": 33175, 
+        "PHONE": "305-273-4853", 
+        "POINT_X": 859881.97118351, 
+        "POINT_Y": 505143.54979418, 
+        "ADDRESS": "4801 SW 117TH AVE", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.7220393, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 33
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.15349603165929, 
+          25.72552341603363
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "PARKS, CRANDON", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.15349603, 
+        "ZIPCODE": 33149, 
+        "PHONE": "305-361-5489", 
+        "POINT_X": 934850.35930417, 
+        "POINT_Y": 506826.02477568, 
+        "ADDRESS": "4000 CRANDON BLVD", 
+        "OPERHR": "M-F 7AM-3PM", 
+        "LAT": 25.72552342, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 34
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.42351448631295, 
+          25.675210416852007
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "STATION 8", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.42351449, 
+        "ZIPCODE": 33186, 
+        "PHONE": "305-383-6820", 
+        "POINT_X": 846033.10025926, 
+        "POINT_Y": 488060.4655221, 
+        "ADDRESS": "10000 SW 142ND ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.67521042, 
+        "FUELTYPE": "UNL", 
+        "ID": 35
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.34309328529618, 
+          25.800284389291026
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "DORAL", 
+        "NAME": "POLICE HEADQUARTERS", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.34309329, 
+        "ZIPCODE": 33172, 
+        "PHONE": "305-471-2930", 
+        "POINT_X": 872294.29675251, 
+        "POINT_Y": 533643.05545909, 
+        "ADDRESS": "9109 NW 25TH ST", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.80028439, 
+        "FUELTYPE": "UNL", 
+        "ID": 46
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.24359094244855, 
+          25.94492484752097
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI GARDENS", 
+        "NAME": "STATION 9", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.24359094, 
+        "ZIPCODE": 33056, 
+        "PHONE": "305-623-6523", 
+        "POINT_X": 904729.60327284, 
+        "POINT_Y": 586391.1133486, 
+        "ADDRESS": "21300 NW 47TH AVE", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.94492485, 
+        "FUELTYPE": "UNL", 
+        "ID": 48
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.15973153714437, 
+          25.70228798425401
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "UNINCORPORATED", 
+        "NAME": "CRANDON PARK", 
+        "ZONE": "B", 
+        "OPEN": "Y", 
+        "LON": -80.15973154, 
+        "ZIPCODE": 33149, 
+        "PHONE": "305-361-5489", 
+        "POINT_X": 932851.17202959, 
+        "POINT_Y": 498367.62272926, 
+        "ADDRESS": "4000 CRANDON BLVD", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.70228798, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 49
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -80.27926594356056, 
+          25.96857117360533
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "CITY": "MIAMI GARDENS", 
+        "NAME": "NORTH DADE LANDFILL", 
+        "ZONE": "A", 
+        "OPEN": "Y", 
+        "LON": -80.27926594, 
+        "ZIPCODE": 33055, 
+        "PHONE": "305-620-4810", 
+        "POINT_X": 892958.75411117, 
+        "POINT_Y": 594919.75245926, 
+        "ADDRESS": "21300 NW 47TH AVE", 
+        "OPERHR": "7 Days / 24 Hrs", 
+        "LAT": 25.96857117, 
+        "FUELTYPE": "UNL/DSL", 
+        "ID": 50
+      }
+    }
+  ]
+}
